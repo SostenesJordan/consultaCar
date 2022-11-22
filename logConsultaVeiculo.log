@@ -1,0 +1,725 @@
+2022-10-23 00:33:40,928 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-10-23 00:33:40,930 - INFO - [33mPress CTRL+C to quit[0m
+2022-10-23 00:33:40,943 - INFO -  * Restarting with stat
+2022-10-23 00:33:47,045 - WARNING -  * Debugger is active!
+2022-10-23 00:33:47,092 - INFO -  * Debugger PIN: 306-293-818
+2022-10-23 00:34:19,266 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-10-23 00:34:19,268 - INFO - [33mPress CTRL+C to quit[0m
+2022-10-23 00:34:19,285 - INFO -  * Restarting with stat
+2022-10-23 00:34:25,559 - WARNING -  * Debugger is active!
+2022-10-23 00:34:25,591 - INFO -  * Debugger PIN: 306-293-818
+2022-10-23 00:34:40,711 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-10-23 00:34:40,711 - INFO - [33mPress CTRL+C to quit[0m
+2022-10-23 00:34:40,713 - INFO -  * Restarting with stat
+2022-10-23 00:34:43,416 - WARNING -  * Debugger is active!
+2022-10-23 00:34:43,436 - INFO -  * Debugger PIN: 735-190-826
+2022-11-02 13:45:53,536 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-02 13:45:53,539 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-02 13:45:53,551 - INFO -  * Restarting with stat
+2022-11-02 13:45:56,227 - WARNING -  * Debugger is active!
+2022-11-02 13:45:56,241 - INFO -  * Debugger PIN: 119-838-111
+2022-11-02 13:46:25,061 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-02 13:46:25,063 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-02 13:46:58,115 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-02 13:46:58,115 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-02 13:47:51,158 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-02 13:47:51,158 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-02 13:47:51,160 - INFO -  * Restarting with stat
+2022-11-02 13:47:52,176 - WARNING -  * Debugger is active!
+2022-11-02 13:47:52,185 - INFO -  * Debugger PIN: 107-140-564
+2022-11-02 13:48:37,308 - INFO - 127.0.0.1 - - [02/Nov/2022 13:48:37] "GET / HTTP/1.1" 200 -
+2022-11-02 13:48:37,451 - INFO - 127.0.0.1 - - [02/Nov/2022 13:48:37] "GET /static/index.css HTTP/1.1" 200 -
+2022-11-02 13:48:37,835 - INFO - 127.0.0.1 - - [02/Nov/2022 13:48:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-11-02 13:48:58,239 - INFO - 127.0.0.1 - - [02/Nov/2022 13:48:58] "[32mPOST /enviar HTTP/1.1[0m" 302 -
+2022-11-02 13:48:58,332 - INFO - 127.0.0.1 - - [02/Nov/2022 13:48:58] "[35m[1mGET /listaDados HTTP/1.1[0m" 500 -
+2022-11-02 13:48:58,359 - INFO - 127.0.0.1 - - [02/Nov/2022 13:48:58] "GET /listaDados?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-11-02 13:48:58,360 - INFO - 127.0.0.1 - - [02/Nov/2022 13:48:58] "GET /listaDados?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-11-02 13:48:58,374 - INFO - 127.0.0.1 - - [02/Nov/2022 13:48:58] "GET /listaDados?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-11-02 13:48:58,622 - INFO - 127.0.0.1 - - [02/Nov/2022 13:48:58] "GET /listaDados?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-11-02 13:48:58,694 - INFO - 127.0.0.1 - - [02/Nov/2022 13:48:58] "[36mGET /listaDados?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-02 13:49:23,546 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-02 13:49:23,775 - INFO -  * Restarting with stat
+2022-11-02 13:49:24,937 - WARNING -  * Debugger is active!
+2022-11-02 13:49:24,946 - INFO -  * Debugger PIN: 107-140-564
+2022-11-02 13:49:44,784 - INFO - 127.0.0.1 - - [02/Nov/2022 13:49:44] "GET / HTTP/1.1" 200 -
+2022-11-02 13:49:45,034 - INFO - 127.0.0.1 - - [02/Nov/2022 13:49:45] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-02 13:49:52,097 - INFO - 127.0.0.1 - - [02/Nov/2022 13:49:52] "[32mPOST /enviar HTTP/1.1[0m" 302 -
+2022-11-02 13:49:52,103 - INFO - 127.0.0.1 - - [02/Nov/2022 13:49:52] "GET /listaDados HTTP/1.1" 200 -
+2022-11-02 13:49:58,302 - INFO - 127.0.0.1 - - [02/Nov/2022 13:49:58] "GET / HTTP/1.1" 200 -
+2022-11-02 13:49:58,324 - INFO - 127.0.0.1 - - [02/Nov/2022 13:49:58] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-02 13:50:41,717 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-02 13:50:42,233 - INFO -  * Restarting with stat
+2022-11-02 13:50:43,409 - WARNING -  * Debugger is active!
+2022-11-02 13:50:43,421 - INFO -  * Debugger PIN: 107-140-564
+2022-11-02 13:50:49,750 - INFO - 127.0.0.1 - - [02/Nov/2022 13:50:49] "POST /enviar HTTP/1.1" 200 -
+2022-11-02 13:52:39,917 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-02 13:52:39,918 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-02 13:52:39,925 - INFO -  * Restarting with stat
+2022-11-02 13:52:42,467 - WARNING -  * Debugger is active!
+2022-11-02 13:52:42,483 - INFO -  * Debugger PIN: 119-838-111
+2022-11-02 13:52:49,499 - INFO - 127.0.0.1 - - [02/Nov/2022 13:52:49] "GET / HTTP/1.1" 200 -
+2022-11-02 13:52:49,687 - INFO - 127.0.0.1 - - [02/Nov/2022 13:52:49] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-02 13:55:51,478 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-02 13:55:51,479 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-02 13:55:51,485 - INFO -  * Restarting with stat
+2022-11-02 13:55:53,870 - WARNING -  * Debugger is active!
+2022-11-02 13:55:53,882 - INFO -  * Debugger PIN: 119-838-111
+2022-11-02 13:56:18,358 - INFO - 127.0.0.1 - - [02/Nov/2022 13:56:18] "GET / HTTP/1.1" 200 -
+2022-11-02 13:56:18,503 - INFO - 127.0.0.1 - - [02/Nov/2022 13:56:18] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-02 13:57:19,203 - INFO - 127.0.0.1 - - [02/Nov/2022 13:57:19] "POST /enviar HTTP/1.1" 200 -
+2022-11-02 14:04:31,025 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-02 14:04:31,026 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-02 14:04:31,032 - INFO -  * Restarting with stat
+2022-11-02 14:04:33,369 - WARNING -  * Debugger is active!
+2022-11-02 14:04:33,383 - INFO -  * Debugger PIN: 119-838-111
+2022-11-02 14:04:33,535 - INFO - 127.0.0.1 - - [02/Nov/2022 14:04:33] "GET / HTTP/1.1" 200 -
+2022-11-02 14:04:33,696 - INFO - 127.0.0.1 - - [02/Nov/2022 14:04:33] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-02 14:04:47,288 - INFO - 127.0.0.1 - - [02/Nov/2022 14:04:47] "POST /enviar HTTP/1.1" 200 -
+2022-11-02 14:04:47,341 - INFO - 127.0.0.1 - - [02/Nov/2022 14:04:47] "GET /static/tabelaDados.css HTTP/1.1" 200 -
+2022-11-04 23:57:30,722 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-04 23:57:30,722 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-04 23:57:30,727 - INFO -  * Restarting with stat
+2022-11-04 23:57:32,822 - WARNING -  * Debugger is active!
+2022-11-04 23:57:32,832 - INFO -  * Debugger PIN: 199-429-023
+2022-11-05 21:00:52,947 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-05 21:00:52,949 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-05 21:00:52,954 - INFO -  * Restarting with stat
+2022-11-05 21:00:55,543 - WARNING -  * Debugger is active!
+2022-11-05 21:00:55,554 - INFO -  * Debugger PIN: 126-862-100
+2022-11-05 21:08:36,332 - INFO - 127.0.0.1 - - [05/Nov/2022 21:08:36] "GET / HTTP/1.1" 200 -
+2022-11-05 21:08:36,459 - INFO - 127.0.0.1 - - [05/Nov/2022 21:08:36] "GET /static/index.css HTTP/1.1" 200 -
+2022-11-05 21:08:36,606 - INFO - 127.0.0.1 - - [05/Nov/2022 21:08:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-11-05 21:08:57,093 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-05 21:09:07,052 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-05 21:09:07,053 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-05 21:09:07,060 - INFO -  * Restarting with stat
+2022-11-05 21:09:09,428 - WARNING -  * Debugger is active!
+2022-11-05 21:09:09,439 - INFO -  * Debugger PIN: 126-862-100
+2022-11-05 21:09:14,905 - INFO - 127.0.0.1 - - [05/Nov/2022 21:09:14] "GET / HTTP/1.1" 200 -
+2022-11-05 21:09:15,017 - INFO - 127.0.0.1 - - [05/Nov/2022 21:09:15] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-05 21:22:28,770 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-05 21:22:28,770 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-05 21:22:28,775 - INFO -  * Restarting with stat
+2022-11-05 21:22:30,941 - WARNING -  * Debugger is active!
+2022-11-05 21:22:30,951 - INFO -  * Debugger PIN: 126-862-100
+2022-11-05 21:23:03,176 - INFO - 127.0.0.1 - - [05/Nov/2022 21:23:03] "GET / HTTP/1.1" 200 -
+2022-11-05 21:23:03,288 - INFO - 127.0.0.1 - - [05/Nov/2022 21:23:03] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-05 21:23:51,999 - INFO - 127.0.0.1 - - [05/Nov/2022 21:23:51] "POST /enviar HTTP/1.1" 200 -
+2022-11-05 21:23:52,036 - INFO - 127.0.0.1 - - [05/Nov/2022 21:23:52] "GET /static/tabelaDados.css HTTP/1.1" 200 -
+2022-11-05 21:28:45,923 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-05 21:28:49,948 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-05 21:28:49,949 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-05 21:28:49,956 - INFO -  * Restarting with stat
+2022-11-05 21:28:52,447 - WARNING -  * Debugger is active!
+2022-11-05 21:28:52,457 - INFO -  * Debugger PIN: 126-862-100
+2022-11-05 21:28:58,973 - INFO - 127.0.0.1 - - [05/Nov/2022 21:28:58] "POST /enviar HTTP/1.1" 200 -
+2022-11-05 21:28:59,097 - INFO - 127.0.0.1 - - [05/Nov/2022 21:28:59] "[36mGET /static/tabelaDados.css HTTP/1.1[0m" 304 -
+2022-11-05 21:35:45,044 - INFO - 127.0.0.1 - - [05/Nov/2022 21:35:45] "POST /enviar HTTP/1.1" 200 -
+2022-11-05 21:35:45,062 - INFO - 127.0.0.1 - - [05/Nov/2022 21:35:45] "[36mGET /static/tabelaDados.css HTTP/1.1[0m" 304 -
+2022-11-05 21:35:56,577 - INFO - 127.0.0.1 - - [05/Nov/2022 21:35:56] "POST /enviar HTTP/1.1" 200 -
+2022-11-05 21:35:56,597 - INFO - 127.0.0.1 - - [05/Nov/2022 21:35:56] "[36mGET /static/tabelaDados.css HTTP/1.1[0m" 304 -
+2022-11-05 21:38:54,705 - INFO - 127.0.0.1 - - [05/Nov/2022 21:38:54] "[31m[1mGET /enviar HTTP/1.1[0m" 405 -
+2022-11-05 21:38:59,259 - INFO - 127.0.0.1 - - [05/Nov/2022 21:38:59] "[31m[1mGET /enviar HTTP/1.1[0m" 405 -
+2022-11-05 21:39:00,258 - INFO - 127.0.0.1 - - [05/Nov/2022 21:39:00] "[31m[1mGET /enviar HTTP/1.1[0m" 405 -
+2022-11-05 21:39:04,155 - INFO - 127.0.0.1 - - [05/Nov/2022 21:39:04] "POST /enviar HTTP/1.1" 200 -
+2022-11-05 21:39:04,178 - INFO - 127.0.0.1 - - [05/Nov/2022 21:39:04] "[36mGET /static/tabelaDados.css HTTP/1.1[0m" 304 -
+2022-11-06 13:06:26,648 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-06 13:06:26,650 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-06 13:06:26,657 - INFO -  * Restarting with stat
+2022-11-06 13:06:29,127 - WARNING -  * Debugger is active!
+2022-11-06 13:06:29,140 - INFO -  * Debugger PIN: 126-862-100
+2022-11-06 13:06:30,583 - INFO - 127.0.0.1 - - [06/Nov/2022 13:06:30] "GET / HTTP/1.1" 200 -
+2022-11-06 13:06:30,882 - INFO - 127.0.0.1 - - [06/Nov/2022 13:06:30] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-06 13:06:31,698 - INFO - 127.0.0.1 - - [06/Nov/2022 13:06:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-11-06 13:06:41,058 - INFO - 127.0.0.1 - - [06/Nov/2022 13:06:41] "POST /enviar HTTP/1.1" 200 -
+2022-11-06 13:06:41,082 - INFO - 127.0.0.1 - - [06/Nov/2022 13:06:41] "GET /static/tabelaDados.css HTTP/1.1" 200 -
+2022-11-06 13:06:41,090 - INFO - 127.0.0.1 - - [06/Nov/2022 13:06:41] "[33mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2022-11-06 13:06:41,095 - INFO - 127.0.0.1 - - [06/Nov/2022 13:06:41] "[33mGET /static/js/dashboard.js HTTP/1.1[0m" 404 -
+2022-11-06 13:09:20,035 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-06 13:09:23,352 - INFO - 127.0.0.1 - - [06/Nov/2022 13:09:23] "POST /enviar HTTP/1.1" 200 -
+2022-11-06 13:09:23,384 - INFO - 127.0.0.1 - - [06/Nov/2022 13:09:23] "[36mGET /static/tabelaDados.css HTTP/1.1[0m" 304 -
+2022-11-06 13:09:23,728 - INFO - 127.0.0.1 - - [06/Nov/2022 13:09:23] "[33mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2022-11-06 13:09:23,746 - INFO - 127.0.0.1 - - [06/Nov/2022 13:09:23] "[33mGET /static/js/dashboard.js HTTP/1.1[0m" 404 -
+2022-11-06 13:09:35,665 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-06 13:09:35,666 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-06 13:09:35,671 - INFO -  * Restarting with stat
+2022-11-06 13:09:38,613 - WARNING -  * Debugger is active!
+2022-11-06 13:09:38,626 - INFO -  * Debugger PIN: 126-862-100
+2022-11-06 13:09:38,810 - INFO - 127.0.0.1 - - [06/Nov/2022 13:09:38] "GET / HTTP/1.1" 200 -
+2022-11-06 13:09:38,812 - INFO - 127.0.0.1 - - [06/Nov/2022 13:09:38] "GET / HTTP/1.1" 200 -
+2022-11-06 13:09:39,036 - INFO - 127.0.0.1 - - [06/Nov/2022 13:09:39] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-06 13:10:12,258 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-06 13:11:07,470 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-06 13:11:07,470 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-06 13:11:07,475 - INFO -  * Restarting with stat
+2022-11-06 13:11:10,362 - WARNING -  * Debugger is active!
+2022-11-06 13:11:10,374 - INFO -  * Debugger PIN: 126-862-100
+2022-11-06 13:11:22,077 - INFO - 127.0.0.1 - - [06/Nov/2022 13:11:22] "GET / HTTP/1.1" 200 -
+2022-11-06 13:11:22,257 - INFO - 127.0.0.1 - - [06/Nov/2022 13:11:22] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-06 13:11:31,185 - INFO - 127.0.0.1 - - [06/Nov/2022 13:11:31] "POST /enviar HTTP/1.1" 200 -
+2022-11-06 13:11:31,213 - INFO - 127.0.0.1 - - [06/Nov/2022 13:11:31] "[36mGET /static/tabelaDados.css HTTP/1.1[0m" 304 -
+2022-11-06 13:11:31,221 - INFO - 127.0.0.1 - - [06/Nov/2022 13:11:31] "[33mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2022-11-06 13:11:31,228 - INFO - 127.0.0.1 - - [06/Nov/2022 13:11:31] "[33mGET /static/js/dashboard.js HTTP/1.1[0m" 404 -
+2022-11-06 13:11:43,462 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-06 13:11:52,005 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-06 13:11:52,005 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-06 13:11:52,008 - INFO -  * Restarting with stat
+2022-11-06 13:11:54,901 - WARNING -  * Debugger is active!
+2022-11-06 13:11:54,914 - INFO -  * Debugger PIN: 126-862-100
+2022-11-06 13:12:02,384 - INFO - 127.0.0.1 - - [06/Nov/2022 13:12:02] "POST /enviar HTTP/1.1" 200 -
+2022-11-06 13:12:02,441 - INFO - 127.0.0.1 - - [06/Nov/2022 13:12:02] "[33mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2022-11-06 13:12:02,450 - INFO - 127.0.0.1 - - [06/Nov/2022 13:12:02] "[33mGET /static/js/dashboard.js HTTP/1.1[0m" 404 -
+2022-11-06 13:12:02,613 - INFO - 127.0.0.1 - - [06/Nov/2022 13:12:02] "[36mGET /static/tabelaDados.css HTTP/1.1[0m" 304 -
+2022-11-06 13:39:38,115 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-06 13:39:38,118 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-06 13:39:38,135 - INFO -  * Restarting with stat
+2022-11-06 13:39:44,296 - WARNING -  * Debugger is active!
+2022-11-06 13:39:44,351 - INFO -  * Debugger PIN: 126-862-100
+2022-11-06 13:44:50,716 - INFO - 127.0.0.1 - - [06/Nov/2022 13:44:50] "GET / HTTP/1.1" 200 -
+2022-11-06 13:44:51,030 - INFO - 127.0.0.1 - - [06/Nov/2022 13:44:51] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-06 13:44:56,648 - INFO - 127.0.0.1 - - [06/Nov/2022 13:44:56] "POST /enviar HTTP/1.1" 200 -
+2022-11-06 13:44:56,727 - INFO - 127.0.0.1 - - [06/Nov/2022 13:44:56] "[36mGET /static/tabelaDados.css HTTP/1.1[0m" 304 -
+2022-11-06 13:44:56,740 - INFO - 127.0.0.1 - - [06/Nov/2022 13:44:56] "[33mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2022-11-06 13:44:56,756 - INFO - 127.0.0.1 - - [06/Nov/2022 13:44:56] "[33mGET /static/js/dashboard.js HTTP/1.1[0m" 404 -
+2022-11-06 13:52:20,609 - INFO - 127.0.0.1 - - [06/Nov/2022 13:52:20] "[31m[1mGET /enviar HTTP/1.1[0m" 405 -
+2022-11-06 13:52:23,718 - INFO - 127.0.0.1 - - [06/Nov/2022 13:52:23] "GET / HTTP/1.1" 200 -
+2022-11-06 13:52:23,791 - INFO - 127.0.0.1 - - [06/Nov/2022 13:52:23] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-06 13:52:28,636 - INFO - 127.0.0.1 - - [06/Nov/2022 13:52:28] "POST /enviar HTTP/1.1" 200 -
+2022-11-06 13:52:28,690 - INFO - 127.0.0.1 - - [06/Nov/2022 13:52:28] "[36mGET /static/tabelaDados.css HTTP/1.1[0m" 304 -
+2022-11-06 13:52:28,705 - INFO - 127.0.0.1 - - [06/Nov/2022 13:52:28] "[33mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2022-11-06 13:52:28,716 - INFO - 127.0.0.1 - - [06/Nov/2022 13:52:28] "[33mGET /static/js/dashboard.js HTTP/1.1[0m" 404 -
+2022-11-06 14:00:13,534 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-06 14:00:13,535 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-06 14:00:13,540 - INFO -  * Restarting with stat
+2022-11-06 14:00:15,407 - WARNING -  * Debugger is active!
+2022-11-06 14:00:15,420 - INFO -  * Debugger PIN: 126-862-100
+2022-11-06 14:00:21,141 - INFO - 127.0.0.1 - - [06/Nov/2022 14:00:21] "GET / HTTP/1.1" 200 -
+2022-11-06 14:00:21,231 - INFO - 127.0.0.1 - - [06/Nov/2022 14:00:21] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-06 14:00:29,304 - INFO - 127.0.0.1 - - [06/Nov/2022 14:00:29] "POST /enviar HTTP/1.1" 200 -
+2022-11-06 14:00:29,330 - INFO - 127.0.0.1 - - [06/Nov/2022 14:00:29] "[36mGET /static/tabelaDados.css HTTP/1.1[0m" 304 -
+2022-11-06 14:00:29,336 - INFO - 127.0.0.1 - - [06/Nov/2022 14:00:29] "[33mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2022-11-06 14:00:29,342 - INFO - 127.0.0.1 - - [06/Nov/2022 14:00:29] "[33mGET /static/js/dashboard.js HTTP/1.1[0m" 404 -
+2022-11-06 14:00:43,183 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-06 14:00:49,523 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-06 14:00:49,524 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-06 14:00:49,530 - INFO -  * Restarting with stat
+2022-11-06 14:00:51,554 - WARNING -  * Debugger is active!
+2022-11-06 14:00:51,566 - INFO -  * Debugger PIN: 126-862-100
+2022-11-06 14:01:00,100 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-06 14:01:00,101 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-06 14:01:00,102 - INFO -  * Restarting with stat
+2022-11-06 14:01:01,000 - WARNING -  * Debugger is active!
+2022-11-06 14:01:01,007 - INFO -  * Debugger PIN: 118-575-858
+2022-11-06 14:01:05,371 - INFO - 127.0.0.1 - - [06/Nov/2022 14:01:05] "GET / HTTP/1.1" 200 -
+2022-11-06 14:01:05,461 - INFO - 127.0.0.1 - - [06/Nov/2022 14:01:05] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-06 14:01:09,144 - INFO - 127.0.0.1 - - [06/Nov/2022 14:01:09] "POST /enviar HTTP/1.1" 200 -
+2022-11-06 14:01:09,167 - INFO - 127.0.0.1 - - [06/Nov/2022 14:01:09] "[36mGET /static/tabelaDados.css HTTP/1.1[0m" 304 -
+2022-11-06 14:01:09,172 - INFO - 127.0.0.1 - - [06/Nov/2022 14:01:09] "[33mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2022-11-06 14:01:09,173 - INFO - 127.0.0.1 - - [06/Nov/2022 14:01:09] "[33mGET /static/js/dashboard.js HTTP/1.1[0m" 404 -
+2022-11-06 14:03:57,180 - INFO - 127.0.0.1 - - [06/Nov/2022 14:03:57] "POST /enviar HTTP/1.1" 200 -
+2022-11-06 14:03:57,200 - INFO - 127.0.0.1 - - [06/Nov/2022 14:03:57] "[36mGET /static/tabelaDados.css HTTP/1.1[0m" 304 -
+2022-11-06 14:03:57,202 - INFO - 127.0.0.1 - - [06/Nov/2022 14:03:57] "[33mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2022-11-06 14:03:57,204 - INFO - 127.0.0.1 - - [06/Nov/2022 14:03:57] "[33mGET /static/js/dashboard.js HTTP/1.1[0m" 404 -
+2022-11-06 14:04:11,285 - INFO - 127.0.0.1 - - [06/Nov/2022 14:04:11] "POST /enviar HTTP/1.1" 200 -
+2022-11-06 14:04:11,309 - INFO - 127.0.0.1 - - [06/Nov/2022 14:04:11] "[36mGET /static/tabelaDados.css HTTP/1.1[0m" 304 -
+2022-11-06 14:04:11,316 - INFO - 127.0.0.1 - - [06/Nov/2022 14:04:11] "[33mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2022-11-06 14:04:11,316 - INFO - 127.0.0.1 - - [06/Nov/2022 14:04:11] "[33mGET /static/js/dashboard.js HTTP/1.1[0m" 404 -
+2022-11-06 14:07:54,318 - INFO - 127.0.0.1 - - [06/Nov/2022 14:07:54] "POST /enviar HTTP/1.1" 200 -
+2022-11-06 14:07:54,342 - INFO - 127.0.0.1 - - [06/Nov/2022 14:07:54] "[36mGET /static/tabelaDados.css HTTP/1.1[0m" 304 -
+2022-11-06 14:07:54,347 - INFO - 127.0.0.1 - - [06/Nov/2022 14:07:54] "[33mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2022-11-06 14:07:54,348 - INFO - 127.0.0.1 - - [06/Nov/2022 14:07:54] "[33mGET /static/js/dashboard.js HTTP/1.1[0m" 404 -
+2022-11-06 16:44:02,028 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-06 16:44:02,030 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-06 16:44:02,033 - INFO -  * Restarting with stat
+2022-11-06 16:44:03,948 - WARNING -  * Debugger is active!
+2022-11-06 16:44:03,955 - INFO -  * Debugger PIN: 126-862-100
+2022-11-06 16:44:17,248 - INFO - 127.0.0.1 - - [06/Nov/2022 16:44:17] "GET / HTTP/1.1" 200 -
+2022-11-06 16:44:17,368 - INFO - 127.0.0.1 - - [06/Nov/2022 16:44:17] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-06 16:44:17,659 - INFO - 127.0.0.1 - - [06/Nov/2022 16:44:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-11-06 16:44:31,349 - INFO - 127.0.0.1 - - [06/Nov/2022 16:44:31] "POST /enviar HTTP/1.1" 200 -
+2022-11-06 16:44:31,371 - INFO - 127.0.0.1 - - [06/Nov/2022 16:44:31] "[36mGET /static/tabelaDados.css HTTP/1.1[0m" 304 -
+2022-11-06 16:44:31,378 - INFO - 127.0.0.1 - - [06/Nov/2022 16:44:31] "[33mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2022-11-06 16:44:31,383 - INFO - 127.0.0.1 - - [06/Nov/2022 16:44:31] "[33mGET /static/js/dashboard.js HTTP/1.1[0m" 404 -
+2022-11-06 16:44:31,394 - INFO - 127.0.0.1 - - [06/Nov/2022 16:44:31] "[33mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2022-11-06 16:44:31,598 - INFO - 127.0.0.1 - - [06/Nov/2022 16:44:31] "[33mGET /static/js/dashboard.js HTTP/1.1[0m" 404 -
+2022-11-06 20:35:53,883 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-06 20:35:53,884 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-06 20:35:53,892 - INFO -  * Restarting with stat
+2022-11-06 20:35:58,008 - WARNING -  * Debugger is active!
+2022-11-06 20:35:58,030 - INFO -  * Debugger PIN: 126-862-100
+2022-11-06 20:36:03,892 - INFO - 127.0.0.1 - - [06/Nov/2022 20:36:03] "GET / HTTP/1.1" 200 -
+2022-11-06 20:36:04,038 - INFO - 127.0.0.1 - - [06/Nov/2022 20:36:04] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-06 20:36:04,342 - INFO - 127.0.0.1 - - [06/Nov/2022 20:36:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-11-06 20:36:08,345 - INFO - 127.0.0.1 - - [06/Nov/2022 20:36:08] "POST /enviar HTTP/1.1" 200 -
+2022-11-06 20:36:08,375 - INFO - 127.0.0.1 - - [06/Nov/2022 20:36:08] "[33mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2022-11-06 20:36:08,376 - INFO - 127.0.0.1 - - [06/Nov/2022 20:36:08] "[36mGET /static/tabelaDados.css HTTP/1.1[0m" 304 -
+2022-11-06 20:36:08,381 - INFO - 127.0.0.1 - - [06/Nov/2022 20:36:08] "[33mGET /static/js/dashboard.js HTTP/1.1[0m" 404 -
+2022-11-06 20:37:31,923 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-06 20:38:22,897 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-06 20:38:22,898 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-06 20:38:22,903 - INFO -  * Restarting with stat
+2022-11-06 20:38:26,087 - WARNING -  * Debugger is active!
+2022-11-06 20:38:26,104 - INFO -  * Debugger PIN: 126-862-100
+2022-11-06 20:38:26,346 - INFO - 127.0.0.1 - - [06/Nov/2022 20:38:26] "GET / HTTP/1.1" 200 -
+2022-11-06 20:38:26,608 - INFO - 127.0.0.1 - - [06/Nov/2022 20:38:26] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-06 20:39:20,153 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-06 20:56:33,543 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-06 20:56:33,545 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-06 20:56:33,552 - INFO -  * Restarting with stat
+2022-11-06 20:56:36,526 - WARNING -  * Debugger is active!
+2022-11-06 20:56:36,547 - INFO -  * Debugger PIN: 126-862-100
+2022-11-06 20:56:36,757 - INFO - 127.0.0.1 - - [06/Nov/2022 20:56:36] "GET / HTTP/1.1" 200 -
+2022-11-06 20:56:37,041 - INFO - 127.0.0.1 - - [06/Nov/2022 20:56:37] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-06 20:56:43,183 - WARNING - erro do regex do multas
+2022-11-06 20:56:43,228 - INFO - 127.0.0.1 - - [06/Nov/2022 20:56:43] "[35m[1mPOST /enviar HTTP/1.1[0m" 500 -
+2022-11-06 20:56:43,249 - INFO - 127.0.0.1 - - [06/Nov/2022 20:56:43] "GET /enviar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-11-06 20:56:43,256 - INFO - 127.0.0.1 - - [06/Nov/2022 20:56:43] "GET /enviar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-11-06 20:56:43,414 - INFO - 127.0.0.1 - - [06/Nov/2022 20:56:43] "GET /enviar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-11-06 20:56:43,623 - INFO - 127.0.0.1 - - [06/Nov/2022 20:56:43] "[36mGET /enviar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-06 20:57:10,577 - INFO - 127.0.0.1 - - [06/Nov/2022 20:57:10] "GET / HTTP/1.1" 200 -
+2022-11-06 20:57:10,595 - INFO - 127.0.0.1 - - [06/Nov/2022 20:57:10] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-06 21:26:33,272 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-06 21:26:33,274 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-06 21:26:33,283 - INFO -  * Restarting with stat
+2022-11-06 21:26:36,433 - WARNING -  * Debugger is active!
+2022-11-06 21:26:36,452 - INFO -  * Debugger PIN: 126-862-100
+2022-11-06 21:26:36,711 - INFO - 127.0.0.1 - - [06/Nov/2022 21:26:36] "GET / HTTP/1.1" 200 -
+2022-11-06 21:26:36,990 - INFO - 127.0.0.1 - - [06/Nov/2022 21:26:36] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-06 21:27:29,538 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\consultaVeiculo.py', reloading
+2022-11-06 21:27:43,571 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-06 21:27:43,572 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-06 21:27:43,584 - INFO -  * Restarting with stat
+2022-11-06 21:27:47,912 - WARNING -  * Debugger is active!
+2022-11-06 21:27:47,931 - INFO -  * Debugger PIN: 126-862-100
+2022-11-06 21:27:48,152 - INFO - 127.0.0.1 - - [06/Nov/2022 21:27:48] "GET / HTTP/1.1" 200 -
+2022-11-06 21:27:48,463 - INFO - 127.0.0.1 - - [06/Nov/2022 21:27:48] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-06 21:28:26,276 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\consultaVeiculo.py', reloading
+2022-11-06 21:28:39,875 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-06 21:28:39,876 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-06 21:28:39,882 - INFO -  * Restarting with stat
+2022-11-06 21:28:44,546 - WARNING -  * Debugger is active!
+2022-11-06 21:28:44,564 - INFO -  * Debugger PIN: 126-862-100
+2022-11-06 21:28:44,757 - INFO - 127.0.0.1 - - [06/Nov/2022 21:28:44] "GET / HTTP/1.1" 200 -
+2022-11-06 21:28:44,998 - INFO - 127.0.0.1 - - [06/Nov/2022 21:28:44] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-06 21:29:12,148 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\consultaVeiculo.py', reloading
+2022-11-06 21:29:27,676 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-06 21:29:27,678 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-06 21:29:27,687 - INFO -  * Restarting with stat
+2022-11-06 21:29:31,725 - WARNING -  * Debugger is active!
+2022-11-06 21:29:31,747 - INFO -  * Debugger PIN: 126-862-100
+2022-11-06 21:29:31,938 - INFO - 127.0.0.1 - - [06/Nov/2022 21:29:31] "GET / HTTP/1.1" 200 -
+2022-11-06 21:29:32,240 - INFO - 127.0.0.1 - - [06/Nov/2022 21:29:32] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-06 21:30:05,090 - WARNING - erro do regex do multas
+2022-11-06 21:30:50,393 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\consultaVeiculo.py', reloading
+2022-11-06 21:37:15,828 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-06 21:37:15,830 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-06 21:37:15,841 - INFO -  * Restarting with stat
+2022-11-06 21:37:18,492 - WARNING -  * Debugger is active!
+2022-11-06 21:37:18,508 - INFO -  * Debugger PIN: 126-862-100
+2022-11-06 21:37:18,752 - INFO - 127.0.0.1 - - [06/Nov/2022 21:37:18] "GET / HTTP/1.1" 200 -
+2022-11-06 21:37:19,017 - INFO - 127.0.0.1 - - [06/Nov/2022 21:37:19] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-06 21:38:03,981 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-06 21:38:03,982 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-06 21:38:03,992 - INFO -  * Restarting with stat
+2022-11-06 21:38:08,893 - WARNING -  * Debugger is active!
+2022-11-06 21:38:08,917 - INFO -  * Debugger PIN: 126-862-100
+2022-11-06 21:38:09,140 - INFO - 127.0.0.1 - - [06/Nov/2022 21:38:09] "GET / HTTP/1.1" 200 -
+2022-11-06 21:38:09,440 - INFO - 127.0.0.1 - - [06/Nov/2022 21:38:09] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-06 21:39:36,334 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-06 21:39:46,474 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-06 21:39:46,475 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-06 21:39:46,483 - INFO -  * Restarting with stat
+2022-11-06 21:39:50,633 - WARNING -  * Debugger is active!
+2022-11-06 21:39:50,656 - INFO -  * Debugger PIN: 126-862-100
+2022-11-06 21:39:50,876 - INFO - 127.0.0.1 - - [06/Nov/2022 21:39:50] "GET / HTTP/1.1" 200 -
+2022-11-06 21:39:51,141 - INFO - 127.0.0.1 - - [06/Nov/2022 21:39:51] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-06 21:40:15,203 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-06 21:40:41,864 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-06 21:40:41,866 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-06 21:40:41,873 - INFO -  * Restarting with stat
+2022-11-06 21:40:46,238 - WARNING -  * Debugger is active!
+2022-11-06 21:40:46,276 - INFO -  * Debugger PIN: 126-862-100
+2022-11-06 21:40:56,878 - INFO - 127.0.0.1 - - [06/Nov/2022 21:40:56] "GET / HTTP/1.1" 200 -
+2022-11-06 21:40:57,081 - INFO - 127.0.0.1 - - [06/Nov/2022 21:40:57] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-06 21:41:33,670 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-06 21:41:33,671 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-06 21:41:33,684 - INFO -  * Restarting with stat
+2022-11-06 21:41:37,987 - WARNING -  * Debugger is active!
+2022-11-06 21:41:38,000 - INFO -  * Debugger PIN: 126-862-100
+2022-11-06 21:41:38,229 - INFO - 127.0.0.1 - - [06/Nov/2022 21:41:38] "GET / HTTP/1.1" 200 -
+2022-11-06 21:41:38,561 - INFO - 127.0.0.1 - - [06/Nov/2022 21:41:38] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-06 21:42:30,860 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-06 21:42:42,252 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-06 21:42:42,255 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-06 21:42:42,265 - INFO -  * Restarting with stat
+2022-11-06 21:42:46,311 - WARNING -  * Debugger is active!
+2022-11-06 21:42:46,322 - INFO -  * Debugger PIN: 126-862-100
+2022-11-06 21:42:46,857 - INFO - 127.0.0.1 - - [06/Nov/2022 21:42:46] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-06 21:43:24,725 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-06 21:43:34,824 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-06 21:43:34,824 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-06 21:43:34,833 - INFO -  * Restarting with stat
+2022-11-06 21:43:39,270 - WARNING -  * Debugger is active!
+2022-11-06 21:43:39,284 - INFO -  * Debugger PIN: 126-862-100
+2022-11-06 21:43:39,518 - INFO - 127.0.0.1 - - [06/Nov/2022 21:43:39] "GET / HTTP/1.1" 200 -
+2022-11-06 21:43:39,833 - INFO - 127.0.0.1 - - [06/Nov/2022 21:43:39] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-06 21:43:57,827 - INFO - 127.0.0.1 - - [06/Nov/2022 21:43:57] "POST /enviar HTTP/1.1" 200 -
+2022-11-06 21:43:57,869 - INFO - 127.0.0.1 - - [06/Nov/2022 21:43:57] "[36mGET /static/tabelaDados.css HTTP/1.1[0m" 304 -
+2022-11-06 21:43:57,875 - INFO - 127.0.0.1 - - [06/Nov/2022 21:43:57] "[33mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2022-11-06 21:43:57,882 - INFO - 127.0.0.1 - - [06/Nov/2022 21:43:57] "[33mGET /static/js/dashboard.js HTTP/1.1[0m" 404 -
+2022-11-06 21:58:18,880 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-06 21:58:35,079 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-06 21:58:35,080 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-06 21:58:35,084 - INFO -  * Restarting with stat
+2022-11-06 21:58:38,418 - WARNING -  * Debugger is active!
+2022-11-06 21:58:38,440 - INFO -  * Debugger PIN: 126-862-100
+2022-11-06 21:58:49,432 - INFO - 127.0.0.1 - - [06/Nov/2022 21:58:49] "GET / HTTP/1.1" 200 -
+2022-11-06 21:58:49,564 - INFO - 127.0.0.1 - - [06/Nov/2022 21:58:49] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-06 21:59:02,993 - INFO - 127.0.0.1 - - [06/Nov/2022 21:59:02] "POST /enviar HTTP/1.1" 200 -
+2022-11-06 21:59:03,057 - INFO - 127.0.0.1 - - [06/Nov/2022 21:59:03] "[36mGET /static/tabelaDados.css HTTP/1.1[0m" 304 -
+2022-11-06 21:59:03,065 - INFO - 127.0.0.1 - - [06/Nov/2022 21:59:03] "[33mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2022-11-06 21:59:03,071 - INFO - 127.0.0.1 - - [06/Nov/2022 21:59:03] "[33mGET /static/js/dashboard.js HTTP/1.1[0m" 404 -
+2022-11-06 22:10:16,697 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\indexarDocumentosDados.py', reloading
+2022-11-12 18:42:19,220 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-12 18:42:19,223 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-12 18:42:19,233 - INFO -  * Restarting with stat
+2022-11-12 18:42:23,851 - WARNING -  * Debugger is active!
+2022-11-12 18:42:23,884 - INFO -  * Debugger PIN: 662-806-805
+2022-11-12 18:43:29,127 - INFO - 127.0.0.1 - - [12/Nov/2022 18:43:29] "[35m[1mPOST /registrar HTTP/1.1[0m" 500 -
+2022-11-12 18:44:45,992 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-12 18:45:23,813 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-12 18:45:23,814 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-12 18:45:23,829 - INFO -  * Restarting with stat
+2022-11-12 18:45:29,297 - WARNING -  * Debugger is active!
+2022-11-12 18:45:29,318 - INFO -  * Debugger PIN: 662-806-805
+2022-11-12 18:47:50,941 - INFO - 127.0.0.1 - - [12/Nov/2022 18:47:50] "[35m[1mPOST /registrar HTTP/1.1[0m" 500 -
+2022-11-12 18:47:58,571 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-12 18:48:27,382 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-12 18:48:27,391 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-12 18:48:27,407 - INFO -  * Restarting with stat
+2022-11-12 18:48:33,223 - WARNING -  * Debugger is active!
+2022-11-12 18:48:33,258 - INFO -  * Debugger PIN: 662-806-805
+2022-11-12 18:48:48,147 - INFO - 127.0.0.1 - - [12/Nov/2022 18:48:48] "POST /registrar HTTP/1.1" 200 -
+2022-11-12 18:53:54,977 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-12 18:57:21,662 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-12 18:57:21,663 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-12 18:57:21,680 - INFO -  * Restarting with stat
+2022-11-12 18:57:26,892 - WARNING -  * Debugger is active!
+2022-11-12 18:57:26,915 - INFO -  * Debugger PIN: 662-806-805
+2022-11-12 18:58:08,133 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-12 18:58:08,133 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-12 18:58:08,146 - INFO -  * Restarting with stat
+2022-11-12 18:58:13,612 - WARNING -  * Debugger is active!
+2022-11-12 18:58:13,647 - INFO -  * Debugger PIN: 662-806-805
+2022-11-12 18:58:38,830 - INFO - 127.0.0.1 - - [12/Nov/2022 18:58:38] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-11-12 18:58:56,271 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-12 18:59:10,781 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-12 18:59:10,783 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-12 18:59:10,804 - INFO -  * Restarting with stat
+2022-11-12 18:59:16,508 - WARNING -  * Debugger is active!
+2022-11-12 18:59:16,540 - INFO -  * Debugger PIN: 662-806-805
+2022-11-12 18:59:32,173 - INFO - 127.0.0.1 - - [12/Nov/2022 18:59:32] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-11-12 19:01:02,787 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-12 19:01:02,790 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-12 19:01:02,803 - INFO -  * Restarting with stat
+2022-11-12 19:01:07,668 - WARNING -  * Debugger is active!
+2022-11-12 19:01:07,691 - INFO -  * Debugger PIN: 662-806-805
+2022-11-12 19:01:26,115 - INFO - 127.0.0.1 - - [12/Nov/2022 19:01:26] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-11-12 19:02:41,791 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-12 19:02:54,775 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-12 19:02:54,776 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-12 19:02:54,787 - INFO -  * Restarting with stat
+2022-11-12 19:03:00,368 - WARNING -  * Debugger is active!
+2022-11-12 19:03:00,402 - INFO -  * Debugger PIN: 662-806-805
+2022-11-12 19:03:30,400 - INFO - 127.0.0.1 - - [12/Nov/2022 19:03:30] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-11-12 19:04:01,229 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-12 19:04:01,230 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-12 19:04:01,243 - INFO -  * Restarting with stat
+2022-11-12 19:04:06,543 - WARNING -  * Debugger is active!
+2022-11-12 19:04:06,569 - INFO -  * Debugger PIN: 662-806-805
+2022-11-12 19:12:17,981 - INFO - 127.0.0.1 - - [12/Nov/2022 19:12:17] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-11-12 19:12:36,253 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-12 19:13:33,428 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-12 19:13:33,429 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-12 19:13:33,434 - INFO -  * Restarting with stat
+2022-11-12 19:13:35,449 - WARNING -  * Debugger is active!
+2022-11-12 19:13:35,460 - INFO -  * Debugger PIN: 662-806-805
+2022-11-12 19:13:43,628 - INFO - 127.0.0.1 - - [12/Nov/2022 19:13:43] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-11-12 19:14:49,817 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-12 19:14:58,353 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-12 19:14:58,353 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-12 19:14:58,357 - INFO -  * Restarting with stat
+2022-11-12 19:15:00,449 - WARNING -  * Debugger is active!
+2022-11-12 19:15:00,459 - INFO -  * Debugger PIN: 662-806-805
+2022-11-12 19:15:31,675 - INFO - 127.0.0.1 - - [12/Nov/2022 19:15:31] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-11-12 19:15:43,620 - INFO - 127.0.0.1 - - [12/Nov/2022 19:15:43] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-11-12 19:15:54,092 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-12 19:15:54,093 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-12 19:15:54,097 - INFO -  * Restarting with stat
+2022-11-12 19:15:56,177 - WARNING -  * Debugger is active!
+2022-11-12 19:15:56,185 - INFO -  * Debugger PIN: 662-806-805
+2022-11-12 19:16:18,676 - INFO - 127.0.0.1 - - [12/Nov/2022 19:16:18] "POST /login HTTP/1.1" 200 -
+2022-11-15 13:05:48,399 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-15 13:05:48,399 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-15 13:05:48,404 - INFO -  * Restarting with stat
+2022-11-15 13:05:50,504 - WARNING -  * Debugger is active!
+2022-11-15 13:05:50,512 - INFO -  * Debugger PIN: 662-806-805
+2022-11-15 13:19:40,589 - INFO - 127.0.0.1 - - [15/Nov/2022 13:19:40] "GET / HTTP/1.1" 200 -
+2022-11-15 13:19:40,954 - INFO - 127.0.0.1 - - [15/Nov/2022 13:19:40] "GET /static/home.css HTTP/1.1" 200 -
+2022-11-15 13:19:41,136 - INFO - 127.0.0.1 - - [15/Nov/2022 13:19:41] "GET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1" 200 -
+2022-11-15 13:19:41,145 - INFO - 127.0.0.1 - - [15/Nov/2022 13:19:41] "GET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1" 200 -
+2022-11-15 13:19:41,919 - INFO - 127.0.0.1 - - [15/Nov/2022 13:19:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-11-15 13:19:46,501 - INFO - 127.0.0.1 - - [15/Nov/2022 13:19:46] "[33mGET /login.html HTTP/1.1[0m" 404 -
+2022-11-15 20:36:33,693 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-15 20:36:33,693 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-15 20:36:33,697 - INFO -  * Restarting with stat
+2022-11-15 20:36:35,921 - WARNING -  * Debugger is active!
+2022-11-15 20:36:35,933 - INFO -  * Debugger PIN: 662-806-805
+2022-11-15 20:36:52,378 - INFO - 127.0.0.1 - - [15/Nov/2022 20:36:52] "GET / HTTP/1.1" 200 -
+2022-11-15 20:36:52,661 - INFO - 127.0.0.1 - - [15/Nov/2022 20:36:52] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-11-15 20:36:52,775 - INFO - 127.0.0.1 - - [15/Nov/2022 20:36:52] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-11-15 20:36:52,780 - INFO - 127.0.0.1 - - [15/Nov/2022 20:36:52] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-11-15 20:36:53,064 - INFO - 127.0.0.1 - - [15/Nov/2022 20:36:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-11-15 20:36:55,360 - INFO - 127.0.0.1 - - [15/Nov/2022 20:36:55] "GET /fazerLogin HTTP/1.1" 200 -
+2022-11-15 20:36:55,392 - INFO - 127.0.0.1 - - [15/Nov/2022 20:36:55] "GET /static/index.css HTTP/1.1" 200 -
+2022-11-15 20:37:14,842 - INFO - 127.0.0.1 - - [15/Nov/2022 20:37:14] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-11-15 20:37:14,867 - INFO - 127.0.0.1 - - [15/Nov/2022 20:37:14] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-11-15 20:37:14,869 - INFO - 127.0.0.1 - - [15/Nov/2022 20:37:14] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-11-15 20:37:14,942 - INFO - 127.0.0.1 - - [15/Nov/2022 20:37:14] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-11-15 20:37:15,008 - INFO - 127.0.0.1 - - [15/Nov/2022 20:37:15] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-15 20:37:29,710 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-15 20:37:36,501 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-15 20:37:36,501 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-15 20:37:36,504 - INFO -  * Restarting with stat
+2022-11-15 20:37:38,643 - WARNING -  * Debugger is active!
+2022-11-15 20:37:38,650 - INFO -  * Debugger PIN: 662-806-805
+2022-11-15 20:37:47,500 - INFO - 127.0.0.1 - - [15/Nov/2022 20:37:47] "GET /fazerLogin HTTP/1.1" 200 -
+2022-11-15 20:37:47,629 - INFO - 127.0.0.1 - - [15/Nov/2022 20:37:47] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-15 20:38:52,048 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-15 20:38:52,049 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-15 20:38:52,054 - INFO -  * Restarting with stat
+2022-11-15 20:38:54,083 - WARNING -  * Debugger is active!
+2022-11-15 20:38:54,092 - INFO -  * Debugger PIN: 662-806-805
+2022-11-15 20:39:03,424 - INFO - 127.0.0.1 - - [15/Nov/2022 20:39:03] "GET /fazerLogin HTTP/1.1" 200 -
+2022-11-15 20:39:03,611 - INFO - 127.0.0.1 - - [15/Nov/2022 20:39:03] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-15 20:39:15,633 - INFO - 127.0.0.1 - - [15/Nov/2022 20:39:15] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-11-15 20:39:15,656 - INFO - 127.0.0.1 - - [15/Nov/2022 20:39:15] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-11-15 20:39:15,667 - INFO - 127.0.0.1 - - [15/Nov/2022 20:39:15] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-11-15 20:39:15,771 - INFO - 127.0.0.1 - - [15/Nov/2022 20:39:15] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-15 20:42:25,908 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-15 20:42:51,378 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-15 20:42:51,378 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-15 20:42:51,382 - INFO -  * Restarting with stat
+2022-11-15 20:42:53,314 - WARNING -  * Debugger is active!
+2022-11-15 20:42:53,321 - INFO -  * Debugger PIN: 662-806-805
+2022-11-15 20:42:58,691 - INFO - 127.0.0.1 - - [15/Nov/2022 20:42:58] "GET /fazerLogin HTTP/1.1" 200 -
+2022-11-15 20:42:58,807 - INFO - 127.0.0.1 - - [15/Nov/2022 20:42:58] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-15 20:43:11,750 - INFO - 127.0.0.1 - - [15/Nov/2022 20:43:11] "POST /login HTTP/1.1" 200 -
+2022-11-15 20:43:11,791 - INFO - 127.0.0.1 - - [15/Nov/2022 20:43:11] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-15 20:46:45,699 - INFO - 127.0.0.1 - - [15/Nov/2022 20:46:45] "POST /login HTTP/1.1" 200 -
+2022-11-15 20:46:45,730 - INFO - 127.0.0.1 - - [15/Nov/2022 20:46:45] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-15 20:47:47,499 - INFO - 127.0.0.1 - - [15/Nov/2022 20:47:47] "GET /fazerLogin HTTP/1.1" 200 -
+2022-11-15 20:47:47,518 - INFO - 127.0.0.1 - - [15/Nov/2022 20:47:47] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-15 20:47:57,153 - INFO - 127.0.0.1 - - [15/Nov/2022 20:47:57] "POST /login HTTP/1.1" 200 -
+2022-11-15 20:47:57,175 - INFO - 127.0.0.1 - - [15/Nov/2022 20:47:57] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-15 20:52:46,916 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-15 20:52:59,052 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-15 20:52:59,053 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-15 20:52:59,062 - INFO -  * Restarting with stat
+2022-11-15 20:53:01,284 - WARNING -  * Debugger is active!
+2022-11-15 20:53:01,292 - INFO -  * Debugger PIN: 662-806-805
+2022-11-15 20:53:07,050 - INFO - 127.0.0.1 - - [15/Nov/2022 20:53:07] "GET /fazerLogin HTTP/1.1" 200 -
+2022-11-15 20:53:07,158 - INFO - 127.0.0.1 - - [15/Nov/2022 20:53:07] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-15 20:53:36,643 - INFO - 127.0.0.1 - - [15/Nov/2022 20:53:36] "POST /login HTTP/1.1" 200 -
+2022-11-15 20:53:36,670 - INFO - 127.0.0.1 - - [15/Nov/2022 20:53:36] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-15 20:53:50,370 - INFO - 127.0.0.1 - - [15/Nov/2022 20:53:50] "GET / HTTP/1.1" 200 -
+2022-11-15 20:53:50,440 - INFO - 127.0.0.1 - - [15/Nov/2022 20:53:50] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-11-15 20:53:50,447 - INFO - 127.0.0.1 - - [15/Nov/2022 20:53:50] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-11-15 20:53:50,449 - INFO - 127.0.0.1 - - [15/Nov/2022 20:53:50] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-11-15 20:53:55,700 - INFO - 127.0.0.1 - - [15/Nov/2022 20:53:55] "[33mGET /consulta HTTP/1.1[0m" 404 -
+2022-11-15 20:54:32,211 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-15 20:54:39,836 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-15 20:54:39,837 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-15 20:54:39,839 - INFO -  * Restarting with stat
+2022-11-15 20:54:41,806 - WARNING -  * Debugger is active!
+2022-11-15 20:54:41,816 - INFO -  * Debugger PIN: 662-806-805
+2022-11-15 20:54:45,790 - INFO - 127.0.0.1 - - [15/Nov/2022 20:54:45] "GET /fazerLogin HTTP/1.1" 200 -
+2022-11-15 20:54:45,935 - INFO - 127.0.0.1 - - [15/Nov/2022 20:54:45] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-15 20:55:00,594 - INFO - 127.0.0.1 - - [15/Nov/2022 20:55:00] "POST /login HTTP/1.1" 200 -
+2022-11-15 20:55:00,627 - INFO - 127.0.0.1 - - [15/Nov/2022 20:55:00] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-15 21:07:38,258 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-15 21:07:38,260 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-15 21:07:38,269 - INFO -  * Restarting with stat
+2022-11-15 21:07:40,392 - WARNING -  * Debugger is active!
+2022-11-15 21:07:40,402 - INFO -  * Debugger PIN: 662-806-805
+2022-11-15 21:07:48,784 - INFO - 127.0.0.1 - - [15/Nov/2022 21:07:48] "[33mGET /registrar.html HTTP/1.1[0m" 404 -
+2022-11-15 21:08:33,799 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-15 21:08:33,799 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-15 21:08:33,803 - INFO -  * Restarting with stat
+2022-11-15 21:08:35,776 - WARNING -  * Debugger is active!
+2022-11-15 21:08:35,784 - INFO -  * Debugger PIN: 662-806-805
+2022-11-15 21:12:50,422 - INFO - 127.0.0.1 - - [15/Nov/2022 21:12:50] "[33mGET /registrar.html HTTP/1.1[0m" 404 -
+2022-11-15 21:13:35,055 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-15 21:13:35,056 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-15 21:13:35,059 - INFO -  * Restarting with stat
+2022-11-15 21:13:37,119 - WARNING -  * Debugger is active!
+2022-11-15 21:13:37,128 - INFO -  * Debugger PIN: 662-806-805
+2022-11-15 21:14:01,508 - INFO - 127.0.0.1 - - [15/Nov/2022 21:14:01] "GET /fazerLogin HTTP/1.1" 200 -
+2022-11-15 21:14:01,603 - INFO - 127.0.0.1 - - [15/Nov/2022 21:14:01] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-15 21:14:08,962 - INFO - 127.0.0.1 - - [15/Nov/2022 21:14:08] "[33mGET /registrar.html HTTP/1.1[0m" 404 -
+2022-11-15 21:14:34,331 - INFO - 127.0.0.1 - - [15/Nov/2022 21:14:34] "[33mGET /registrar.html HTTP/1.1[0m" 404 -
+2022-11-15 21:14:47,212 - INFO - 127.0.0.1 - - [15/Nov/2022 21:14:47] "[31m[1mGET /registrar HTTP/1.1[0m" 405 -
+2022-11-15 21:14:56,294 - INFO - 127.0.0.1 - - [15/Nov/2022 21:14:56] "GET /fazerCadastro HTTP/1.1" 200 -
+2022-11-15 21:14:56,317 - INFO - 127.0.0.1 - - [15/Nov/2022 21:14:56] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-15 21:16:18,148 - INFO - 127.0.0.1 - - [15/Nov/2022 21:16:18] "POST /registrar HTTP/1.1" 200 -
+2022-11-15 21:16:18,191 - INFO - 127.0.0.1 - - [15/Nov/2022 21:16:18] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-15 21:16:25,783 - INFO - 127.0.0.1 - - [15/Nov/2022 21:16:25] "GET /fazerLogin HTTP/1.1" 200 -
+2022-11-15 21:16:25,823 - INFO - 127.0.0.1 - - [15/Nov/2022 21:16:25] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-15 21:16:45,846 - INFO - 127.0.0.1 - - [15/Nov/2022 21:16:45] "[35m[1mPOST /registrar HTTP/1.1[0m" 500 -
+2022-11-15 21:16:45,874 - INFO - 127.0.0.1 - - [15/Nov/2022 21:16:45] "GET /registrar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-11-15 21:16:45,876 - INFO - 127.0.0.1 - - [15/Nov/2022 21:16:45] "GET /registrar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-11-15 21:16:45,928 - INFO - 127.0.0.1 - - [15/Nov/2022 21:16:45] "GET /registrar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-11-15 21:16:46,014 - INFO - 127.0.0.1 - - [15/Nov/2022 21:16:46] "[36mGET /registrar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-15 21:17:33,005 - INFO - 127.0.0.1 - - [15/Nov/2022 21:17:33] "[35m[1mPOST /registrar HTTP/1.1[0m" 500 -
+2022-11-15 21:17:33,041 - INFO - 127.0.0.1 - - [15/Nov/2022 21:17:33] "[36mGET /registrar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-11-15 21:17:33,044 - INFO - 127.0.0.1 - - [15/Nov/2022 21:17:33] "[36mGET /registrar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-11-15 21:17:33,102 - INFO - 127.0.0.1 - - [15/Nov/2022 21:17:33] "[36mGET /registrar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-15 21:17:33,171 - INFO - 127.0.0.1 - - [15/Nov/2022 21:17:33] "[36mGET /registrar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-15 21:17:49,350 - INFO -  * Detected change in 'C:\\Users\\soste\\Projetos\\varreduraDetran\\app.py', reloading
+2022-11-15 21:18:00,119 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-15 21:18:00,120 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-15 21:18:00,124 - INFO -  * Restarting with stat
+2022-11-15 21:18:02,390 - WARNING -  * Debugger is active!
+2022-11-15 21:18:02,398 - INFO -  * Debugger PIN: 662-806-805
+2022-11-15 21:19:28,751 - INFO - 127.0.0.1 - - [15/Nov/2022 21:19:28] "POST /registrar HTTP/1.1" 200 -
+2022-11-15 21:19:28,875 - INFO - 127.0.0.1 - - [15/Nov/2022 21:19:28] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-15 21:20:00,483 - INFO - 127.0.0.1 - - [15/Nov/2022 21:20:00] "GET / HTTP/1.1" 200 -
+2022-11-15 21:20:00,585 - INFO - 127.0.0.1 - - [15/Nov/2022 21:20:00] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-11-15 21:20:00,591 - INFO - 127.0.0.1 - - [15/Nov/2022 21:20:00] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-11-15 21:20:00,597 - INFO - 127.0.0.1 - - [15/Nov/2022 21:20:00] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-11-15 21:20:06,885 - INFO - 127.0.0.1 - - [15/Nov/2022 21:20:06] "GET /fazerLogin HTTP/1.1" 200 -
+2022-11-15 21:20:06,943 - INFO - 127.0.0.1 - - [15/Nov/2022 21:20:06] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-15 21:20:10,814 - INFO - 127.0.0.1 - - [15/Nov/2022 21:20:10] "GET /fazerCadastro HTTP/1.1" 200 -
+2022-11-15 21:20:10,872 - INFO - 127.0.0.1 - - [15/Nov/2022 21:20:10] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-15 21:20:48,343 - INFO - 127.0.0.1 - - [15/Nov/2022 21:20:48] "POST /registrar HTTP/1.1" 200 -
+2022-11-15 21:20:48,367 - INFO - 127.0.0.1 - - [15/Nov/2022 21:20:48] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-15 21:20:53,556 - INFO - 127.0.0.1 - - [15/Nov/2022 21:20:53] "GET /fazerLogin HTTP/1.1" 200 -
+2022-11-15 21:20:53,581 - INFO - 127.0.0.1 - - [15/Nov/2022 21:20:53] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-15 21:21:26,328 - INFO - 127.0.0.1 - - [15/Nov/2022 21:21:26] "POST /login HTTP/1.1" 200 -
+2022-11-15 21:21:26,364 - INFO - 127.0.0.1 - - [15/Nov/2022 21:21:26] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-15 21:21:40,502 - INFO - 127.0.0.1 - - [15/Nov/2022 21:21:40] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-15 21:21:57,677 - INFO - 127.0.0.1 - - [15/Nov/2022 21:21:57] "POST /login HTTP/1.1" 200 -
+2022-11-15 21:21:57,714 - INFO - 127.0.0.1 - - [15/Nov/2022 21:21:57] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-15 21:22:19,413 - WARNING - erro do regex do modelo
+2022-11-15 21:22:19,413 - WARNING - erro do regex do ano de fabricacao
+2022-11-15 21:22:19,415 - WARNING - erro do regex do inf. pendentes
+2022-11-15 21:22:19,415 - WARNING - erro do regex do impedimentos
+2022-11-15 21:22:19,416 - WARNING - erro do regex do municipio
+2022-11-15 21:22:19,417 - WARNING - erro do regex do data licenciamento
+2022-11-15 21:22:19,418 - WARNING - erro do regex do data restrição de venda
+2022-11-15 21:22:19,440 - INFO - 127.0.0.1 - - [15/Nov/2022 21:22:19] "[35m[1mPOST /enviar HTTP/1.1[0m" 500 -
+2022-11-15 21:22:19,476 - INFO - 127.0.0.1 - - [15/Nov/2022 21:22:19] "GET /enviar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-11-15 21:22:19,481 - INFO - 127.0.0.1 - - [15/Nov/2022 21:22:19] "GET /enviar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-11-15 21:22:19,610 - INFO - 127.0.0.1 - - [15/Nov/2022 21:22:19] "GET /enviar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-11-15 21:22:19,881 - INFO - 127.0.0.1 - - [15/Nov/2022 21:22:19] "[36mGET /enviar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-15 21:22:36,291 - WARNING - erro do regex do modelo
+2022-11-15 21:22:36,292 - WARNING - erro do regex do ano de fabricacao
+2022-11-15 21:22:36,292 - WARNING - erro do regex do inf. pendentes
+2022-11-15 21:22:36,292 - WARNING - erro do regex do impedimentos
+2022-11-15 21:22:36,292 - WARNING - erro do regex do municipio
+2022-11-15 21:22:36,292 - WARNING - erro do regex do data licenciamento
+2022-11-15 21:22:36,293 - WARNING - erro do regex do data restrição de venda
+2022-11-15 21:22:36,302 - INFO - 127.0.0.1 - - [15/Nov/2022 21:22:36] "[35m[1mPOST /enviar HTTP/1.1[0m" 500 -
+2022-11-15 21:22:36,334 - INFO - 127.0.0.1 - - [15/Nov/2022 21:22:36] "[36mGET /enviar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-11-15 21:22:36,341 - INFO - 127.0.0.1 - - [15/Nov/2022 21:22:36] "[36mGET /enviar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-11-15 21:22:36,456 - INFO - 127.0.0.1 - - [15/Nov/2022 21:22:36] "[36mGET /enviar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-15 21:22:54,385 - WARNING - erro do regex do modelo
+2022-11-15 21:22:54,386 - WARNING - erro do regex do ano de fabricacao
+2022-11-15 21:22:54,386 - WARNING - erro do regex do inf. pendentes
+2022-11-15 21:22:54,387 - WARNING - erro do regex do impedimentos
+2022-11-15 21:22:54,387 - WARNING - erro do regex do municipio
+2022-11-15 21:22:54,387 - WARNING - erro do regex do data licenciamento
+2022-11-15 21:22:54,387 - WARNING - erro do regex do data restrição de venda
+2022-11-15 21:22:54,402 - INFO - 127.0.0.1 - - [15/Nov/2022 21:22:54] "[35m[1mPOST /enviar HTTP/1.1[0m" 500 -
+2022-11-15 21:22:54,435 - INFO - 127.0.0.1 - - [15/Nov/2022 21:22:54] "[36mGET /enviar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-11-15 21:22:54,443 - INFO - 127.0.0.1 - - [15/Nov/2022 21:22:54] "[36mGET /enviar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-11-15 21:22:54,556 - INFO - 127.0.0.1 - - [15/Nov/2022 21:22:54] "[36mGET /enviar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-15 21:23:10,834 - INFO - 127.0.0.1 - - [15/Nov/2022 21:23:10] "[31m[1mGET /enviar HTTP/1.1[0m" 405 -
+2022-11-15 21:23:33,257 - INFO - 127.0.0.1 - - [15/Nov/2022 21:23:33] "POST /login HTTP/1.1" 200 -
+2022-11-15 21:23:33,290 - INFO - 127.0.0.1 - - [15/Nov/2022 21:23:33] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-15 21:23:54,798 - INFO - 127.0.0.1 - - [15/Nov/2022 21:23:54] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+2022-11-15 21:23:57,380 - INFO - 127.0.0.1 - - [15/Nov/2022 21:23:57] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+2022-11-17 19:43:27,995 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-17 19:43:27,996 - INFO - [33mPress CTRL+C to quit[0m
+2022-11-17 19:43:34,166 - INFO - 127.0.0.1 - - [17/Nov/2022 19:43:34] "GET / HTTP/1.1" 200 -
+2022-11-17 19:43:34,339 - INFO - 127.0.0.1 - - [17/Nov/2022 19:43:34] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-11-17 19:43:34,426 - INFO - 127.0.0.1 - - [17/Nov/2022 19:43:34] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-11-17 19:43:34,428 - INFO - 127.0.0.1 - - [17/Nov/2022 19:43:34] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-11-17 19:43:34,831 - INFO - 127.0.0.1 - - [17/Nov/2022 19:43:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-11-17 19:45:26,335 - INFO - 127.0.0.1 - - [17/Nov/2022 19:45:26] "GET /fazerLogin HTTP/1.1" 200 -
+2022-11-17 19:45:26,397 - INFO - 127.0.0.1 - - [17/Nov/2022 19:45:26] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-11-17 19:45:35,067 - INFO - 127.0.0.1 - - [17/Nov/2022 19:45:35] "POST /login HTTP/1.1" 200 -
+2022-11-17 19:45:35,091 - INFO - 127.0.0.1 - - [17/Nov/2022 19:45:35] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
