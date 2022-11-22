@@ -2,6 +2,9 @@ import re
 import requests
 import time
 from twocaptcha import TwoCaptcha
+# para da certo a lib do 2 captcha tem que ser essa:
+# pip install 2captcha-python
+
 import json
 
 def email_valido(email):
