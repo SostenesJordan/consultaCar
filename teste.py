@@ -5,22 +5,23 @@ from database import Database
 from datetime import datetime
 from funcoes.utils import captcha, metodoGet, postPage
 from api.api2captcha import KEY
+from urllib.parse import urlencode
 
 headers = {
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-    'accept-encoding': 'gzip, deflate, br',
-    'cache-control': 'max-age=0',
-    'sec-fetch-dest': 'document',
-    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36'
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'Accept-Encoding': 'gzip, deflate, br',
+    'Fache-Control': 'max-age=0',
+    'Sec-Fetch-Fest': 'document',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36'
 }
 
-url = 'https://www2.detran.rn.gov.br/externo/consultarveiculo.asp'
+url = 'https://www2.detran.rn.gov.br/externo/consultarveiculo.asp?MENSAGEM=1'
 
 session = requests.session()
 
 fazer_get = session.get(url, headers=headers)
 
-cookie = fazer_get.cookies
+cookie = fazer_get.headers["Set-Cookie"].split(";")[0]
 
 html = fazer_get.text
 
@@ -54,18 +55,21 @@ payload = {
     }
 
 headers = {
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-    'accept-encoding': 'gzip, deflate, br',
-    'accept-language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
-    'cache-control': 'max-age=0',
-    'sec-fetch-dest': 'document',
-    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36',
-    'content-type': 'application/x-www-form-urlencoded'
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'Accept-Encoding': 'gzip, deflate, br',
+    'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
+    'Cache-Control': 'max-age=0',
+    'Sec-Fetch-Fest': 'document',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36',
+    'Content-Type': 'application/x-www-form-urlencoded',
+    "Cookie" : cookie
 }
 
 fazerPost = session.post(
-    url, payload,
-    headers=headers,
-    cookies=cookie)
+    url, data=urlencode(payload),
+    headers=headers)
+    # cookies=cookie)
 
 print(fazerPost.text)
+
+
