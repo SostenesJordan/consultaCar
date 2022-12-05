@@ -23,6 +23,8 @@ fazer_get = session.get(url, headers=headers)
 
 cookie = fazer_get.headers["Set-Cookie"].split(";")[0]
 
+#cookie = fazer_get.headers["Set-Cookie"]
+
 html = fazer_get.text
 
 try:
@@ -31,45 +33,50 @@ try:
 except:
     print('erro')
 
-resposta_captcha = captcha(captchaKey, url, KEY)
+for i in range(10):
 
-# payload = {
-#     'oculto:' 'AvancarC'
-#     'placa': 'PCJ6J98',
-#     'renavam': '01161057940',
-#     'g-recaptcha-response': resposta_captcha['code'],
-#     'btnConsultaPlaca': ''
-# }
+    resposta_captcha = captcha(captchaKey, url, KEY)
 
-placa = 'pcj6j98'
-renavam = '01161057940'
+    # payload = {
+    #     'oculto:' 'AvancarC'
+    #     'placa': 'PCJ6J98',
+    #     'renavam': '01161057940',
+    #     'g-recaptcha-response': resposta_captcha['code'],
+    #     'btnConsultaPlaca': ''
+    # }
 
-# fazer_post = postPage(url, cookie,resposta_captcha, placa, renavam )
+    placa = 'pcj6j98'
+    renavam = '01161057940'
 
-payload = {
-        'oculto:' 'AvancarC'
-        'placa': placa,
-        'renavam': renavam,
-        'g-recaptcha-response': resposta_captcha['code'],
-        'btnConsultaPlaca': ''
+    # fazer_post = postPage(url, cookie,resposta_captcha, placa, renavam )
+
+    payload = {
+            'oculto:' 'AvancarC'
+            'placa': placa,
+            'renavam': renavam,
+            'g-recaptcha-response': resposta_captcha['code'],
+            'btnConsultaPlaca': ''
+        }
+
+    headers = {
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'Accept-Encoding': 'gzip, deflate, br',
+        'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
+        'Content-Type': 'application/x-www-form-urlencoded',
+        'Cache-Control': 'max-age=0',
+        'Sec-Fetch-Fest': 'document',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36',
+        'Content-Type': 'application/x-www-form-urlencoded',
+        "Cookie" : cookie,
+        'Origin': 'https://www2.detran.rn.gov.br',
+        'Referer': 'https://www2.detran.rn.gov.br/externo/consultarveiculo.asp?MENSAGEM=1'
     }
 
-headers = {
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
-    'Cache-Control': 'max-age=0',
-    'Sec-Fetch-Fest': 'document',
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36',
-    'Content-Type': 'application/x-www-form-urlencoded',
-    "Cookie" : cookie
-}
+    fazerPost = session.post(
+        url, data=urlencode(payload),
+        headers=headers)
+        # cookies=cookie)
 
-fazerPost = session.post(
-    url, data=urlencode(payload),
-    headers=headers)
-    # cookies=cookie)
-
-print(fazerPost.text)
+    print(fazerPost.text)
 
 

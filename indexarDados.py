@@ -21,7 +21,7 @@ logging.basicConfig(
 connection_server = "mongodb+srv://mongoDetran:mongodetran-6869@cluster0.gz0srkn.mongodb.net/?retryWrites=true&w=majority"
 db_name = "config"
 
-database = Database(connection_server, db_name)
+# database = Database(connection_server, db_name)
 
 collection_detran_rn = dataBase['detran_rn']
 collection_log_detran_rn = dataBase['log_detran_rn']

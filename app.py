@@ -1,5 +1,6 @@
 from flask import Flask, flash, render_template,request,redirect,session,url_for,jsonify
 from database import Database
+from mongo import dataBase
 import json
 from funcoes.consultaVeiculo import consultarVeiculo
 from funcoes.utils import email_valido
@@ -13,7 +14,11 @@ collection_logDetranRN = "log_detran_rn"
 collectio_usuarios = "usuarios"
 connection_server = "mongodb://127.0.0.1:27017"
 db_name = "config"
-database = Database(connection_server, db_name)
+# database = Database(connection_server, db_name)
+
+collection_detran_rn = dataBase['detran_rn']
+collection_usuarios = dataBase['usuarios']
+collection_log_detran_rn = dataBase['log_detran_rn']
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'mysecret'
@@ -29,17 +34,59 @@ def enviar():
     
     placa = request.form['placa'].upper()
 
-    pegar_dados = database.select_one_object(
-        collection_detranRN,
-        {
-            'placa': placa
-        }
-    )
+    # pegar_dados = database.select_one_object(
+    #     collection_detranRN,
+    #     {
+    #         'placa': placa
+    #     }
+    # )
+
+    pegar_dados = collection_detran_rn.find_one({
+        'placa': placa
+    })
+    
+    mes = datetime.month
+    if('indexado' in pegar_dados):
+        if(pegar_dados['indexado'] == True and pegar_dados['data_indexacao'].month < mes ):
+
+            # dados estão recente, não precisa fazer uma consulta novamente
+            tem_multa = pegar_dados['multa']
+            lista_descricao_multas = []
+            informacao_pendete = pegar_dados['informacao_pendetes']
+            impedimentos = pegar_dados['impedimentos']
+            msg_impedimentos: str
+
+            if('Sem multas.' not in tem_multa):
+                multas_debitos = 'Fique atento!'
+                lista_descricao_multas = pegar_dados['dados_descricao_multas']
+                # lista_d escricao_multas.append(multas_debitos)
+            else:
+                multas_debitos = 'Tudo OK!'
+                # lista_descricao_multas.append(multas_debitos)
+
+            if('Nenhuma informação' in informacao_pendete and 'Nenhum impedimento' in impedimentos):
+                msg_impedimentos = 'Tudo OK!'
+            else:
+                msg_impedimentos = 'Fique atento!'
+
+            return render_template(
+                    'tabelaDados.html',
+                    dadosConsultaDetran = pegarDadosVeiculo,
+                    dadosDataBase = pegar_dados,
+                    Alerta_multas = multas_debitos,
+                    lista_descricao_multas = lista_descricao_multas,
+                    msg_alerta_impedimentos = msg_impedimentos
+                )
+            
 
     placa = pegar_dados['placa']
     renavam = pegar_dados['renavam']
 
-    pegarDadosVeiculo = consultarVeiculo.pegarDadosConsulta(placa, renavam)
+    
+
+    # pegarDadosVeiculo = consultarVeiculo.pegarDadosConsulta(placa, renavam)
+
+    pegarDadosVeiculo = consultarVeiculo.processar_dado_html(placa, renavam)
 
     tem_multa = pegarDadosVeiculo['multa']
     lista_descricao_multas = []
@@ -49,19 +96,16 @@ def enviar():
 
     if('Sem multas.' not in tem_multa):
         multas_debitos = 'Fique atento!'
-        lista_descricao_multas.append(multas_debitos)
+        lista_descricao_multas = pegarDadosVeiculo['dados_descricao_multas']
+        # lista_d escricao_multas.append(multas_debitos)
     else:
         multas_debitos = 'Tudo OK!'
-        lista_descricao_multas.append(multas_debitos)
+        # lista_descricao_multas.append(multas_debitos)
 
     if('Nenhuma informação' in informacao_pendete and 'Nenhum impedimento' in impedimentos):
         msg_impedimentos = 'Tudo OK!'
     else:
         msg_impedimentos = 'Fique atento!'
-
-
-    
-        
 
     return render_template(
             'tabelaDados.html',
@@ -91,17 +135,28 @@ def registrar():
         msgEmail_invalido = 'Eita, o email está invalido!'
         return render_template('registrar.html', msgEmail_invalido = msgEmail_invalido)
 
-    buscar = database.select_one_object(collectio_usuarios, {'email': email})
+    # buscar = database.select_one_object(collectio_usuarios, {'email': email})
+
+    buscar = collection_usuarios.find_one({
+        'email': email
+    })
 
     if not buscar:
-        salvar_usuario = database.insert_object(
-            {
-                'nome': nome,
-                'email': email,
-                'senha': generate_password_hash(senha)
-            },
-            collectio_usuarios
-        )
+        # salvar_usuario = database.insert_object(
+        #     {
+        #         'nome': nome,
+        #         'email': email,
+        #         'senha': generate_password_hash(senha)
+        #     },
+        #     collectio_usuarios
+        # )
+
+        salvar_usuario = collection_usuarios.insert_one({
+            'nome': nome,
+            'email': email,
+            'senha': generate_password_hash(senha)
+        })
+
         response['mensagem'] = 'OK'
         response['sucesso'] = True
 
@@ -129,7 +184,11 @@ def login():
         response["mensagem"] = "Dados invalidos"
         flash('Dados invalidos, tente novamente')
 
-    buscar = database.select_one_object(collectio_usuarios, {'email': email})
+    # buscar = database.select_one_object(collectio_usuarios, {'email': email})
+
+    buscar = collection_usuarios.find_one({
+        'email': email
+    })
 
     if not buscar:
         response['mensagem'] = 'Usuario não encontrado.'

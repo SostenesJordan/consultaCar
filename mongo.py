@@ -17,6 +17,7 @@ dataBase = client['configdb']
 
 collection_detran_rn = dataBase['detran_rn']
 collection_log_detran_rn = dataBase['log_detran_rn']
+collection_usuarios = dataBase['usuarios']
 
 # result = collection_log.find_one({
 #     "placa" : "MXO2152"
