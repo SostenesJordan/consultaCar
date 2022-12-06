@@ -2,6 +2,8 @@ import re
 import requests
 import time
 from twocaptcha import TwoCaptcha
+from mongo import dataBase
+from datetime import datetime
 # para da certo a lib do 2 captcha tem que ser essa:
 # pip install 2captcha-python
 
@@ -23,6 +25,23 @@ def captcha(captchaKey, url, api_key):
     
     return result
 
+def registrar_consulta(user:str, dados:dict, user_id: str):
+
+    collection_detran_rn = dataBase['detran_rn']
+    collection_usuarios = dataBase['usuarios']
+    collection_log_detran_rn = dataBase['log_detran_rn']
+    collection_historico = dataBase['historico_usuario']
+
+    salvar_registro = collection_historico.insert_one({
+        'usuario': user,
+        'id_usuario': str(user_id),
+        'data_consulta': datetime.utcnow(),
+        'veiculo_consultado': dados['marca'],
+        'dados_consulta': dados
+    })
+
+
+    
 # def metodoGet(url):
 
 #     headers = {

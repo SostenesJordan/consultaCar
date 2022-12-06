@@ -1,9 +1,10 @@
 from flask import Flask, flash, render_template,request,redirect,session,url_for,jsonify
+from flask_session import Session
 from database import Database
 from mongo import dataBase
 import json
 from funcoes.consultaVeiculo import consultarVeiculo
-from funcoes.utils import email_valido
+from funcoes.utils import email_valido, registrar_consulta
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_jwt_extended import JWTManager, create_access_token, jwt_required, get_jwt_identity
 from datetime import timedelta, datetime
@@ -23,6 +24,8 @@ collection_log_detran_rn = dataBase['log_detran_rn']
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'mysecret'
 app.config['JWT_SECRET_KEY'] = 'this-is-secret-key'
+app.config["SESSION_PERMANENT"] = False
+app.config["SESSION_TYPE"] = "filesystem"
 jwt = JWTManager(app)
 
 @app.route('/')
@@ -34,6 +37,9 @@ def enviar():
     
     placa = request.form['placa'].upper()
 
+    user = session.get('email')
+    user_id = session.get('user_id')
+
     # pegar_dados = database.select_one_object(
     #     collection_detranRN,
     #     {
@@ -44,10 +50,13 @@ def enviar():
     pegar_dados = collection_detran_rn.find_one({
         'placa': placa
     })
+
+    renavam = pegar_dados['renavam']
     
     mes = datetime.month
     if('indexado' in pegar_dados):
-        if(pegar_dados['indexado'] == True and pegar_dados['data_indexacao'].month < mes ):
+        #and pegar_dados['data_indexacao'].month < mes 
+        if(pegar_dados['indexado'] == True):
 
             # dados estão recente, não precisa fazer uma consulta novamente
             tem_multa = pegar_dados['multa']
@@ -69,13 +78,25 @@ def enviar():
             else:
                 msg_impedimentos = 'Fique atento!'
 
+            if('Licenciamento Anual (CRLV Eletrônico)(Via 1)' in pegar_dados['licenciamento']):
+                doc_propietario = pegar_dados['cpf_ou_cnpj_propietario'].replace('.', '').replace('-','')
+                licenciamento = 'Tudo OK!'
+                link_documento = f'https://crlvdigital.detran.rn.gov.br/Home/ImprimirCRLV?placa={placa}&renavam={renavam}&documentoProprietario={doc_propietario}'
+            else:
+                licenciamento = 'Atrasado'
+                link_documento = ''
+
+            registrar_consulta_user = registrar_consulta(user, pegar_dados, user_id)
+
             return render_template(
                     'tabelaDados.html',
-                    dadosConsultaDetran = pegarDadosVeiculo,
+                    dadosConsultaDetran = pegar_dados,
                     dadosDataBase = pegar_dados,
                     Alerta_multas = multas_debitos,
                     lista_descricao_multas = lista_descricao_multas,
-                    msg_alerta_impedimentos = msg_impedimentos
+                    msg_alerta_impedimentos = msg_impedimentos,
+                    link_documento = link_documento,
+                    licenciamento = licenciamento
                 )
             
 
@@ -107,13 +128,23 @@ def enviar():
     else:
         msg_impedimentos = 'Fique atento!'
 
+    if('Licenciamento Anual (CRLV Eletrônico)(Via 1)' in pegarDadosVeiculo['licenciamento']):
+        doc_propietario = pegar_dados['cpf_ou_cnpj_propietario'].replace('.', '').replace('-','')
+        licenciamento = 'Tudo OK!'
+        link_documento = f'https://crlvdigital.detran.rn.gov.br/Home/ImprimirCRLV?placa={placa}&renavam={renavam}&documentoProprietario={doc_propietario}'
+    else:
+        licenciamento = 'Atrasado'
+        link_documento = ''
+
     return render_template(
             'tabelaDados.html',
             dadosConsultaDetran = pegarDadosVeiculo,
             dadosDataBase = pegar_dados,
             Alerta_multas = multas_debitos,
             lista_descricao_multas = lista_descricao_multas,
-            msg_alerta_impedimentos = msg_impedimentos
+            msg_alerta_impedimentos = msg_impedimentos,
+            link_documento = link_documento,
+            licenciamento = licenciamento
         )
 
 @app.route('/registrar', methods=['POST'])
@@ -199,6 +230,9 @@ def login():
     if check_password_hash(buscar['senha'], senha):
         
         token = create_access_token(identity=buscar['senha'])
+
+        session['email'] = buscar['email']
+        session['user_id'] = str(buscar['_id'])
 
         response['mensagem'] = 'o token foi gerado'
         response['token'] = token
