@@ -35,18 +35,18 @@
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="/">Home</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" href="#">Ajuda</a>
-        </li>
+        </li> -->
         <li class="nav-item">
-          <a class="nav-link" href="#">Perfil</a>
+          <a class="nav-link" href="/perfil">Perfil</a>
         </li>
       </ul>
     </div>
@@ -137,7 +137,7 @@
   <div class="content">
 
     <div class="container">
-      <h2 class="mb-5"><strong>Modelo:</strong> {{ dadosDataBase['marca'] }} <br><strong>Municipio:</strong> {{ dadosConsultaDetran['municipio'] }}/{{
+      <h2 class="mb-5" style="text-align: center; font-size: 25px;"><strong>Modelo: </strong><br>{{ dadosDataBase['marca'] }} <br><br><strong>Municipio: </strong> <br>{{ dadosConsultaDetran['municipio'] }}/{{
         dadosDataBase['uf'] }}</h2>
 
 
@@ -152,9 +152,7 @@
                 <small id="placa" class="d-block">{{ dadosDataBase['renavam'] }}</small>
               </td>
               <td>
-                <button onclick="copiarHTML()">
-                  copiar
-                </button>
+                
 
               </td>
             </tr>
@@ -168,9 +166,7 @@
                 {{ dadosConsultaDetran['ano_fabricacao'] }}
               </td>
               <td>
-                <button onclick="copiarHTML()">
-                  Copiar
-                </button>
+                
               </td>
             </tr>
             <tr class="spacer">
@@ -183,9 +179,7 @@
                 {{ dadosDataBase['cpf_ou_cnpj_propietario'] }}
               </td>
               <td>
-                <button onclick="copiarHTML()">
-                  Copiar
-                </button>
+                
               </td>
             </tr>
             <tr class="spacer">
@@ -199,7 +193,7 @@
 
 
     <div class="container">
-      <h2 class="mb-5">Dados cadastrais</h2>
+      <h2 class="mb-5" style="font-size: 40px;"><strong>Dados cadastrais</strong></h2>
 
 
       <div class="table-responsive custom-table-responsive">
@@ -212,9 +206,7 @@
                 {{ dadosConsultaDetran['licenciamento'] }}
               </td>
               <td>
-                <button onclick="copiarHTML()">
-                  copiar
-                </button>
+                
 
               </td>
             </tr>
@@ -230,9 +222,7 @@
                 {{ dadosConsultaDetran['restricao_venda'] }}
               </td>
               <td>
-                <button onclick="copiarHTML()">
-                  Copiar
-                </button>
+                
               </td>
             </tr>
             <tr class="spacer">
@@ -245,9 +235,7 @@
                 {{ dadosConsultaDetran['informacao_pendetes'] }}
               </td>
               <td>
-                <button onclick="copiarHTML()">
-                  Copiar
-                </button>
+                
               </td>
             </tr>
             <tr class="spacer">
@@ -261,9 +249,7 @@
                 {{ dadosConsultaDetran['impedimentos'] }}
               </td>
               <td>
-                <button onclick="copiarHTML()">
-                  copiar
-                </button>
+                
 
               </td>
             </tr>
@@ -279,9 +265,7 @@
                 {{ dadosConsultaDetran['multa'] }}
               </td>
               <td>
-                <button onclick="copiarHTML()">
-                  Copiar
-                </button>
+                
               </td>
             </tr>
             <tr class="spacer">
@@ -294,9 +278,7 @@
                 {{ dadosConsultaDetran['debitos'] }}
               </td>
               <td>
-                <button onclick="copiarHTML()">
-                  Copiar
-                </button>
+                
               </td>
             </tr>
             <tr class="spacer">

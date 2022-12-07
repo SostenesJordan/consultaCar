@@ -1837,3 +1837,929 @@ TypeError: Object of type ObjectId is not JSON serializable
 2022-12-05 22:44:22,983 - INFO - [33mPress CTRL+C to quit[0m
 2022-12-05 22:44:30,205 - INFO - 127.0.0.1 - - [05/Dec/2022 22:44:30] "POST /login HTTP/1.1" 200 -
 2022-12-05 22:44:30,384 - INFO - 127.0.0.1 - - [05/Dec/2022 22:44:30] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-06 21:22:38,044 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-06 21:22:38,045 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-06 21:22:47,723 - INFO - 127.0.0.1 - - [06/Dec/2022 21:22:47] "GET / HTTP/1.1" 200 -
+2022-12-06 21:22:48,089 - INFO - 127.0.0.1 - - [06/Dec/2022 21:22:48] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-06 21:22:48,094 - INFO - 127.0.0.1 - - [06/Dec/2022 21:22:48] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-06 21:22:48,096 - INFO - 127.0.0.1 - - [06/Dec/2022 21:22:48] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-06 21:22:49,971 - INFO - 127.0.0.1 - - [06/Dec/2022 21:22:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-12-06 21:22:52,413 - INFO - 127.0.0.1 - - [06/Dec/2022 21:22:52] "GET /fazerLogin HTTP/1.1" 200 -
+2022-12-06 21:22:52,464 - INFO - 127.0.0.1 - - [06/Dec/2022 21:22:52] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-06 21:23:03,370 - INFO - 127.0.0.1 - - [06/Dec/2022 21:23:03] "POST /login HTTP/1.1" 200 -
+2022-12-06 21:23:03,403 - INFO - 127.0.0.1 - - [06/Dec/2022 21:23:03] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-06 21:23:25,180 - INFO - 127.0.0.1 - - [06/Dec/2022 21:23:25] "POST /enviar HTTP/1.1" 200 -
+2022-12-06 21:23:25,226 - INFO - 127.0.0.1 - - [06/Dec/2022 21:23:25] "GET /static/style.css HTTP/1.1" 200 -
+2022-12-06 21:23:25,231 - INFO - 127.0.0.1 - - [06/Dec/2022 21:23:25] "[36mGET /static/owl.carousel.min.css HTTP/1.1[0m" 304 -
+2022-12-06 21:23:25,237 - INFO - 127.0.0.1 - - [06/Dec/2022 21:23:25] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-12-06 21:23:25,242 - INFO - 127.0.0.1 - - [06/Dec/2022 21:23:25] "[33mGET /js/jquery-3.3.1.min.js HTTP/1.1[0m" 404 -
+2022-12-06 21:23:25,246 - INFO - 127.0.0.1 - - [06/Dec/2022 21:23:25] "[33mGET /js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2022-12-06 21:23:25,250 - INFO - 127.0.0.1 - - [06/Dec/2022 21:23:25] "[33mGET /js/popper.min.js HTTP/1.1[0m" 404 -
+2022-12-06 21:23:25,256 - INFO - 127.0.0.1 - - [06/Dec/2022 21:23:25] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2022-12-06 21:23:30,578 - INFO - 127.0.0.1 - - [06/Dec/2022 21:23:30] "[35m[1mGET /perfil HTTP/1.1[0m" 500 -
+2022-12-06 21:23:30,728 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\soste\Projetos\varreduraDetran\app.py", line 261, in perfil
+    return render_template('perfil.html', user=user, count=count, dados=lista_dados)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\soste\Projetos\varreduraDetran\templates\perfil.html", line 28, in top-level template code
+    <title>{{ dadosDataBase['marca'] }}</title>
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 466, in getitem
+    return obj[argument]
+jinja2.exceptions.UndefinedError: 'dadosDataBase' is undefined
+2022-12-06 21:23:47,334 - INFO - 127.0.0.1 - - [06/Dec/2022 21:23:47] "[35m[1mGET /perfil HTTP/1.1[0m" 500 -
+2022-12-06 21:23:47,407 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\soste\Projetos\varreduraDetran\app.py", line 261, in perfil
+    return render_template('perfil.html', user=user, count=count, dados=lista_dados)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\soste\Projetos\varreduraDetran\templates\perfil.html", line 28, in top-level template code
+    <title>{{ dadosDataBase['marca'] }}</title>
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 466, in getitem
+    return obj[argument]
+jinja2.exceptions.UndefinedError: 'dadosDataBase' is undefined
+2022-12-06 21:24:18,890 - INFO - 127.0.0.1 - - [06/Dec/2022 21:24:18] "[35m[1mGET /perfil HTTP/1.1[0m" 500 -
+2022-12-06 21:24:18,961 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\soste\Projetos\varreduraDetran\app.py", line 261, in perfil
+    return render_template('perfil.html', user=user, count=count, dados=lista_dados)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\soste\Projetos\varreduraDetran\templates\perfil.html", line 28, in top-level template code
+    <title>{{ dadosDataBase['marca'] }}</title>
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 466, in getitem
+    return obj[argument]
+jinja2.exceptions.UndefinedError: 'dadosDataBase' is undefined
+2022-12-06 21:24:41,660 - INFO - 127.0.0.1 - - [06/Dec/2022 21:24:41] "[35m[1mGET /perfil HTTP/1.1[0m" 500 -
+2022-12-06 21:24:41,661 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\soste\Projetos\varreduraDetran\app.py", line 261, in perfil
+    return render_template('perfil.html', user=user, count=count, dados=lista_dados)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\soste\Projetos\varreduraDetran\templates\perfil.html", line 28, in top-level template code
+    <title>{{ dadosDataBase['marca'] }}</title>
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 466, in getitem
+    return obj[argument]
+jinja2.exceptions.UndefinedError: 'dadosDataBase' is undefined
+2022-12-06 21:24:54,874 - INFO - 127.0.0.1 - - [06/Dec/2022 21:24:54] "[35m[1mGET /perfil HTTP/1.1[0m" 500 -
+2022-12-06 21:24:55,007 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\soste\Projetos\varreduraDetran\app.py", line 261, in perfil
+    return render_template('perfil.html', user=user, count=count, dados=lista_dados)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\soste\Projetos\varreduraDetran\templates\perfil.html", line 28, in top-level template code
+    <title>{{ dadosDataBase['marca'] }}</title>
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 466, in getitem
+    return obj[argument]
+jinja2.exceptions.UndefinedError: 'dadosDataBase' is undefined
+2022-12-06 21:26:25,619 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-06 21:26:25,620 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-06 21:26:38,331 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-06 21:26:38,331 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-06 21:26:38,675 - INFO - 127.0.0.1 - - [06/Dec/2022 21:26:38] "GET / HTTP/1.1" 200 -
+2022-12-06 21:26:38,839 - INFO - 127.0.0.1 - - [06/Dec/2022 21:26:38] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-06 21:26:38,950 - INFO - 127.0.0.1 - - [06/Dec/2022 21:26:38] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-06 21:26:38,959 - INFO - 127.0.0.1 - - [06/Dec/2022 21:26:38] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-06 21:26:43,294 - INFO - 127.0.0.1 - - [06/Dec/2022 21:26:43] "[35m[1mGET /perfil HTTP/1.1[0m" 500 -
+2022-12-06 21:26:43,327 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\soste\Projetos\varreduraDetran\app.py", line 254, in perfil
+    count = buscar_historico.retrieved
+AttributeError: 'list' object has no attribute 'retrieved'
+2022-12-06 21:26:48,142 - INFO - 127.0.0.1 - - [06/Dec/2022 21:26:48] "GET /fazerLogin HTTP/1.1" 200 -
+2022-12-06 21:26:48,245 - INFO - 127.0.0.1 - - [06/Dec/2022 21:26:48] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-06 21:26:58,583 - INFO - 127.0.0.1 - - [06/Dec/2022 21:26:58] "POST /login HTTP/1.1" 200 -
+2022-12-06 21:26:58,613 - INFO - 127.0.0.1 - - [06/Dec/2022 21:26:58] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-06 21:27:07,370 - INFO - 127.0.0.1 - - [06/Dec/2022 21:27:07] "POST /enviar HTTP/1.1" 200 -
+2022-12-06 21:27:07,403 - INFO - 127.0.0.1 - - [06/Dec/2022 21:27:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-06 21:27:07,408 - INFO - 127.0.0.1 - - [06/Dec/2022 21:27:07] "[36mGET /static/owl.carousel.min.css HTTP/1.1[0m" 304 -
+2022-12-06 21:27:07,421 - INFO - 127.0.0.1 - - [06/Dec/2022 21:27:07] "[33mGET /js/jquery-3.3.1.min.js HTTP/1.1[0m" 404 -
+2022-12-06 21:27:07,424 - INFO - 127.0.0.1 - - [06/Dec/2022 21:27:07] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-12-06 21:27:07,432 - INFO - 127.0.0.1 - - [06/Dec/2022 21:27:07] "[33mGET /js/popper.min.js HTTP/1.1[0m" 404 -
+2022-12-06 21:27:07,441 - INFO - 127.0.0.1 - - [06/Dec/2022 21:27:07] "[33mGET /js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2022-12-06 21:27:07,450 - INFO - 127.0.0.1 - - [06/Dec/2022 21:27:07] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2022-12-06 21:27:36,934 - INFO - 127.0.0.1 - - [06/Dec/2022 21:27:36] "[35m[1mGET /perfil HTTP/1.1[0m" 500 -
+2022-12-06 21:27:36,936 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\soste\Projetos\varreduraDetran\app.py", line 254, in perfil
+    count = buscar_historico.retrieved
+AttributeError: 'list' object has no attribute 'retrieved'
+2022-12-06 21:50:23,604 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-06 21:50:23,605 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-06 21:51:03,770 - INFO - 127.0.0.1 - - [06/Dec/2022 21:51:03] "[35m[1mGET /perfil HTTP/1.1[0m" 500 -
+2022-12-06 21:51:03,824 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\soste\Projetos\varreduraDetran\app.py", line 261, in perfil
+    return render_template('perfil.html', user=user, count=count, dados=lista_dados)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\soste\Projetos\varreduraDetran\templates\perfil.html", line 28, in top-level template code
+    <title>{{ dadosDataBase['marca'] }}</title>
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 466, in getitem
+    return obj[argument]
+jinja2.exceptions.UndefinedError: 'dadosDataBase' is undefined
+2022-12-06 21:51:49,315 - INFO - 127.0.0.1 - - [06/Dec/2022 21:51:49] "[35m[1mGET /perfil HTTP/1.1[0m" 500 -
+2022-12-06 21:51:49,317 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\soste\Projetos\varreduraDetran\app.py", line 261, in perfil
+    return render_template('perfil.html', user=user, count=count, dados=lista_dados)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\soste\Projetos\varreduraDetran\templates\perfil.html", line 28, in top-level template code
+    <title>{{ dadosDataBase['marca'] }}</title>
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 466, in getitem
+    return obj[argument]
+jinja2.exceptions.UndefinedError: 'dadosDataBase' is undefined
+2022-12-06 21:52:19,371 - INFO - 127.0.0.1 - - [06/Dec/2022 21:52:19] "[35m[1mGET /perfil HTTP/1.1[0m" 500 -
+2022-12-06 21:52:19,372 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\soste\Projetos\varreduraDetran\app.py", line 261, in perfil
+    return render_template('perfil.html', user=user, count=count, dados=lista_dados)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\soste\Projetos\varreduraDetran\templates\perfil.html", line 28, in top-level template code
+    <title>{{ dadosDataBase['marca'] }}</title>
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 466, in getitem
+    return obj[argument]
+jinja2.exceptions.UndefinedError: 'dadosDataBase' is undefined
+2022-12-06 21:53:32,473 - INFO - 127.0.0.1 - - [06/Dec/2022 21:53:32] "[35m[1mGET /perfil HTTP/1.1[0m" 500 -
+2022-12-06 21:53:32,475 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\soste\Projetos\varreduraDetran\app.py", line 261, in perfil
+    return render_template('perfil.html', user=user, count=count, dados=lista_dados)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\soste\Projetos\varreduraDetran\templates\perfil.html", line 28, in top-level template code
+    <title>{{ dadosDataBase['marca'] }}</title>
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 466, in getitem
+    return obj[argument]
+jinja2.exceptions.UndefinedError: 'dadosDataBase' is undefined
+2022-12-06 21:54:14,896 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-06 21:54:14,897 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-06 21:54:23,272 - INFO - 127.0.0.1 - - [06/Dec/2022 21:54:23] "[35m[1mGET /perfil HTTP/1.1[0m" 500 -
+2022-12-06 21:54:23,322 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\soste\Projetos\varreduraDetran\app.py", line 257, in perfil
+    return render_template('perfil.html', user=user, count=count, dados=buscar_historico)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\soste\Projetos\varreduraDetran\templates\perfil.html", line 28, in top-level template code
+    <title>{{ dadosDataBase['marca'] }}</title>
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 466, in getitem
+    return obj[argument]
+jinja2.exceptions.UndefinedError: 'dadosDataBase' is undefined
+2022-12-06 21:54:51,782 - INFO - 127.0.0.1 - - [06/Dec/2022 21:54:51] "[35m[1mGET /perfil HTTP/1.1[0m" 500 -
+2022-12-06 21:54:51,783 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\soste\Projetos\varreduraDetran\app.py", line 257, in perfil
+    return render_template('perfil.html', user=user, count=count, dados=buscar_historico)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\soste\Projetos\varreduraDetran\templates\perfil.html", line 28, in top-level template code
+    <title>{{ dadosDataBase['marca'] }}</title>
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 466, in getitem
+    return obj[argument]
+jinja2.exceptions.UndefinedError: 'dadosDataBase' is undefined
+2022-12-06 21:55:20,011 - INFO - 127.0.0.1 - - [06/Dec/2022 21:55:20] "[35m[1mGET /perfil HTTP/1.1[0m" 500 -
+2022-12-06 21:55:20,120 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\soste\Projetos\varreduraDetran\app.py", line 257, in perfil
+    return render_template('perfil.html')
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\soste\Projetos\varreduraDetran\templates\perfil.html", line 28, in top-level template code
+    <title>{{ dadosDataBase['marca'] }}</title>
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 466, in getitem
+    return obj[argument]
+jinja2.exceptions.UndefinedError: 'dadosDataBase' is undefined
+2022-12-06 21:55:40,974 - INFO - 127.0.0.1 - - [06/Dec/2022 21:55:40] "[35m[1mGET /perfil HTTP/1.1[0m" 500 -
+2022-12-06 21:55:41,040 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\soste\Projetos\varreduraDetran\app.py", line 257, in perfil
+    return render_template('perfil.html')
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\soste\Projetos\varreduraDetran\templates\perfil.html", line 28, in top-level template code
+    <title>{{ dadosDataBase['marca'] }}</title>
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 466, in getitem
+    return obj[argument]
+jinja2.exceptions.UndefinedError: 'dadosDataBase' is undefined
+2022-12-06 21:56:24,098 - INFO - 127.0.0.1 - - [06/Dec/2022 21:56:24] "GET / HTTP/1.1" 200 -
+2022-12-06 21:56:24,246 - INFO - 127.0.0.1 - - [06/Dec/2022 21:56:24] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-06 21:56:24,286 - INFO - 127.0.0.1 - - [06/Dec/2022 21:56:24] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-06 21:56:24,290 - INFO - 127.0.0.1 - - [06/Dec/2022 21:56:24] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-06 21:56:30,256 - INFO - 127.0.0.1 - - [06/Dec/2022 21:56:30] "[35m[1mGET /perfil HTTP/1.1[0m" 500 -
+2022-12-06 21:56:30,258 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\soste\Projetos\varreduraDetran\app.py", line 257, in perfil
+    return render_template('perfil.html')
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\soste\Projetos\varreduraDetran\templates\perfil.html", line 28, in top-level template code
+    <title>{{ dadosDataBase['marca'] }}</title>
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 466, in getitem
+    return obj[argument]
+jinja2.exceptions.UndefinedError: 'dadosDataBase' is undefined
+2022-12-06 21:57:54,489 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-06 21:57:54,491 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-06 21:57:54,826 - INFO - 127.0.0.1 - - [06/Dec/2022 21:57:54] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-06 21:57:54,832 - INFO - 127.0.0.1 - - [06/Dec/2022 21:57:54] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-06 21:57:54,940 - INFO - 127.0.0.1 - - [06/Dec/2022 21:57:54] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-06 21:58:00,554 - INFO - 127.0.0.1 - - [06/Dec/2022 21:58:00] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-06 21:58:07,268 - INFO - 127.0.0.1 - - [06/Dec/2022 21:58:07] "POST /login HTTP/1.1" 200 -
+2022-12-06 21:58:07,292 - INFO - 127.0.0.1 - - [06/Dec/2022 21:58:07] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-06 21:58:35,615 - INFO - 127.0.0.1 - - [06/Dec/2022 21:58:35] "POST /enviar HTTP/1.1" 200 -
+2022-12-06 21:58:35,646 - INFO - 127.0.0.1 - - [06/Dec/2022 21:58:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-06 21:58:35,662 - INFO - 127.0.0.1 - - [06/Dec/2022 21:58:35] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-12-06 21:58:35,672 - INFO - 127.0.0.1 - - [06/Dec/2022 21:58:35] "[33mGET /js/jquery-3.3.1.min.js HTTP/1.1[0m" 404 -
+2022-12-06 21:58:35,690 - INFO - 127.0.0.1 - - [06/Dec/2022 21:58:35] "[36mGET /static/owl.carousel.min.css HTTP/1.1[0m" 304 -
+2022-12-06 21:58:35,699 - INFO - 127.0.0.1 - - [06/Dec/2022 21:58:35] "[33mGET /js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2022-12-06 21:58:35,715 - INFO - 127.0.0.1 - - [06/Dec/2022 21:58:35] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2022-12-06 21:58:35,722 - INFO - 127.0.0.1 - - [06/Dec/2022 21:58:35] "[33mGET /js/popper.min.js HTTP/1.1[0m" 404 -
+2022-12-06 21:58:49,102 - INFO - 127.0.0.1 - - [06/Dec/2022 21:58:49] "[35m[1mGET /perfil HTTP/1.1[0m" 500 -
+2022-12-06 21:58:49,550 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\soste\Projetos\varreduraDetran\app.py", line 257, in perfil
+    return render_template('perfil.html')
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\soste\Projetos\varreduraDetran\templates\perfil.html", line 28, in top-level template code
+    <title>{{ dadosDataBase['marca'] }}</title>
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 466, in getitem
+    return obj[argument]
+jinja2.exceptions.UndefinedError: 'dadosDataBase' is undefined
+2022-12-06 21:59:07,296 - INFO - 127.0.0.1 - - [06/Dec/2022 21:59:07] "POST /login HTTP/1.1" 200 -
+2022-12-06 21:59:07,327 - INFO - 127.0.0.1 - - [06/Dec/2022 21:59:07] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-06 21:59:09,836 - INFO - 127.0.0.1 - - [06/Dec/2022 21:59:09] "POST /enviar HTTP/1.1" 200 -
+2022-12-06 21:59:09,866 - INFO - 127.0.0.1 - - [06/Dec/2022 21:59:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-06 21:59:09,878 - INFO - 127.0.0.1 - - [06/Dec/2022 21:59:09] "[36mGET /static/owl.carousel.min.css HTTP/1.1[0m" 304 -
+2022-12-06 21:59:09,882 - INFO - 127.0.0.1 - - [06/Dec/2022 21:59:09] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-12-06 21:59:09,892 - INFO - 127.0.0.1 - - [06/Dec/2022 21:59:09] "[33mGET /js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2022-12-06 21:59:09,902 - INFO - 127.0.0.1 - - [06/Dec/2022 21:59:09] "[33mGET /js/popper.min.js HTTP/1.1[0m" 404 -
+2022-12-06 21:59:09,909 - INFO - 127.0.0.1 - - [06/Dec/2022 21:59:09] "[33mGET /js/jquery-3.3.1.min.js HTTP/1.1[0m" 404 -
+2022-12-06 21:59:09,918 - INFO - 127.0.0.1 - - [06/Dec/2022 21:59:09] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2022-12-06 22:00:51,313 - INFO - 127.0.0.1 - - [06/Dec/2022 22:00:51] "[35m[1mGET /perfil HTTP/1.1[0m" 500 -
+2022-12-06 22:00:51,318 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\soste\Projetos\varreduraDetran\app.py", line 257, in perfil
+    return render_template('perfil.html')
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\soste\Projetos\varreduraDetran\templates\perfil.html", line 28, in top-level template code
+    <title>{{ dadosDataBase['marca'] }}</title>
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 466, in getitem
+    return obj[argument]
+jinja2.exceptions.UndefinedError: 'dadosDataBase' is undefined
+2022-12-06 22:01:34,401 - INFO - 127.0.0.1 - - [06/Dec/2022 22:01:34] "[35m[1mGET /perfil HTTP/1.1[0m" 500 -
+2022-12-06 22:01:38,449 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\soste\Projetos\varreduraDetran\app.py", line 257, in perfil
+    return render_template('login.html')
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\soste\Projetos\varreduraDetran\templates\perfil.html", line 28, in top-level template code
+    <title>{{ dadosDataBase['marca'] }}</title>
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 466, in getitem
+    return obj[argument]
+jinja2.exceptions.UndefinedError: 'dadosDataBase' is undefined
+2022-12-06 22:01:56,790 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-06 22:01:56,791 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-06 22:02:10,575 - INFO - 127.0.0.1 - - [06/Dec/2022 22:02:10] "POST /login HTTP/1.1" 200 -
+2022-12-06 22:02:10,734 - INFO - 127.0.0.1 - - [06/Dec/2022 22:02:10] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-06 22:02:14,292 - INFO - 127.0.0.1 - - [06/Dec/2022 22:02:14] "POST /enviar HTTP/1.1" 200 -
+2022-12-06 22:02:14,318 - INFO - 127.0.0.1 - - [06/Dec/2022 22:02:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-06 22:02:14,328 - INFO - 127.0.0.1 - - [06/Dec/2022 22:02:14] "[36mGET /static/owl.carousel.min.css HTTP/1.1[0m" 304 -
+2022-12-06 22:02:14,337 - INFO - 127.0.0.1 - - [06/Dec/2022 22:02:14] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-12-06 22:02:14,352 - INFO - 127.0.0.1 - - [06/Dec/2022 22:02:14] "[33mGET /js/jquery-3.3.1.min.js HTTP/1.1[0m" 404 -
+2022-12-06 22:02:14,359 - INFO - 127.0.0.1 - - [06/Dec/2022 22:02:14] "[33mGET /js/popper.min.js HTTP/1.1[0m" 404 -
+2022-12-06 22:02:14,365 - INFO - 127.0.0.1 - - [06/Dec/2022 22:02:14] "[33mGET /js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2022-12-06 22:02:14,379 - INFO - 127.0.0.1 - - [06/Dec/2022 22:02:14] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2022-12-06 22:02:15,929 - INFO - 127.0.0.1 - - [06/Dec/2022 22:02:15] "GET /perfil HTTP/1.1" 200 -
+2022-12-06 22:02:15,961 - INFO - 127.0.0.1 - - [06/Dec/2022 22:02:15] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-06 22:02:38,193 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-06 22:02:38,193 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-06 22:10:50,091 - INFO - 127.0.0.1 - - [06/Dec/2022 22:10:50] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-06 22:10:50,175 - INFO - 127.0.0.1 - - [06/Dec/2022 22:10:50] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-06 22:10:50,187 - INFO - 127.0.0.1 - - [06/Dec/2022 22:10:50] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-06 22:15:10,132 - INFO - 127.0.0.1 - - [06/Dec/2022 22:15:10] "[35m[1mGET /perfil HTTP/1.1[0m" 500 -
+2022-12-06 22:15:10,170 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\soste\Projetos\varreduraDetran\app.py", line 257, in perfil
+    return render_template('perfil.html', user=user, count=count, dados=buscar_historico)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\soste\Projetos\varreduraDetran\templates\perfil.html", line 28, in top-level template code
+    <title>{{ dadosDataBase['marca'] }}</title>
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 466, in getitem
+    return obj[argument]
+jinja2.exceptions.UndefinedError: 'dadosDataBase' is undefined
+2022-12-06 22:15:18,304 - INFO - 127.0.0.1 - - [06/Dec/2022 22:15:18] "GET /fazerLogin HTTP/1.1" 200 -
+2022-12-06 22:15:18,448 - INFO - 127.0.0.1 - - [06/Dec/2022 22:15:18] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-06 22:15:27,478 - INFO - 127.0.0.1 - - [06/Dec/2022 22:15:27] "POST /login HTTP/1.1" 200 -
+2022-12-06 22:15:27,513 - INFO - 127.0.0.1 - - [06/Dec/2022 22:15:27] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-06 22:15:31,880 - INFO - 127.0.0.1 - - [06/Dec/2022 22:15:31] "POST /enviar HTTP/1.1" 200 -
+2022-12-06 22:15:31,913 - INFO - 127.0.0.1 - - [06/Dec/2022 22:15:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-06 22:15:31,924 - INFO - 127.0.0.1 - - [06/Dec/2022 22:15:31] "[36mGET /static/owl.carousel.min.css HTTP/1.1[0m" 304 -
+2022-12-06 22:15:31,932 - INFO - 127.0.0.1 - - [06/Dec/2022 22:15:31] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-12-06 22:15:31,938 - INFO - 127.0.0.1 - - [06/Dec/2022 22:15:31] "[33mGET /js/jquery-3.3.1.min.js HTTP/1.1[0m" 404 -
+2022-12-06 22:15:31,949 - INFO - 127.0.0.1 - - [06/Dec/2022 22:15:31] "[33mGET /js/popper.min.js HTTP/1.1[0m" 404 -
+2022-12-06 22:15:31,959 - INFO - 127.0.0.1 - - [06/Dec/2022 22:15:31] "[33mGET /js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2022-12-06 22:15:31,975 - INFO - 127.0.0.1 - - [06/Dec/2022 22:15:31] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2022-12-06 22:15:34,412 - INFO - 127.0.0.1 - - [06/Dec/2022 22:15:34] "[35m[1mGET /perfil HTTP/1.1[0m" 500 -
+2022-12-06 22:15:34,415 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\soste\Projetos\varreduraDetran\app.py", line 257, in perfil
+    return render_template('perfil.html', user=user, count=count, dados=buscar_historico)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\soste\Projetos\varreduraDetran\templates\perfil.html", line 28, in top-level template code
+    <title>{{ dadosDataBase['marca'] }}</title>
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 466, in getitem
+    return obj[argument]
+jinja2.exceptions.UndefinedError: 'dadosDataBase' is undefined
+2022-12-06 22:24:39,560 - INFO - 127.0.0.1 - - [06/Dec/2022 22:24:39] "[35m[1mGET /perfil HTTP/1.1[0m" 500 -
+2022-12-06 22:24:39,571 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\soste\Projetos\varreduraDetran\app.py", line 257, in perfil
+    return render_template('perfil.html', user=user, count=count, dados=buscar_historico)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\soste\Projetos\varreduraDetran\templates\perfil.html", line 28, in top-level template code
+    <title>{{ dadosDataBase['marca'] }}</title>
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 466, in getitem
+    return obj[argument]
+jinja2.exceptions.UndefinedError: 'dadosDataBase' is undefined
+2022-12-06 22:39:47,837 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-06 22:39:47,839 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-06 22:40:10,914 - INFO - 127.0.0.1 - - [06/Dec/2022 22:40:10] "GET / HTTP/1.1" 200 -
+2022-12-06 22:40:11,180 - INFO - 127.0.0.1 - - [06/Dec/2022 22:40:11] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-06 22:40:11,182 - INFO - 127.0.0.1 - - [06/Dec/2022 22:40:11] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-06 22:40:11,187 - INFO - 127.0.0.1 - - [06/Dec/2022 22:40:11] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-06 22:40:16,210 - INFO - 127.0.0.1 - - [06/Dec/2022 22:40:16] "GET /fazerLogin HTTP/1.1" 200 -
+2022-12-06 22:40:16,281 - INFO - 127.0.0.1 - - [06/Dec/2022 22:40:16] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-06 22:40:25,957 - INFO - 127.0.0.1 - - [06/Dec/2022 22:40:25] "POST /login HTTP/1.1" 200 -
+2022-12-06 22:40:25,986 - INFO - 127.0.0.1 - - [06/Dec/2022 22:40:25] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-06 22:40:34,159 - INFO - 127.0.0.1 - - [06/Dec/2022 22:40:34] "POST /enviar HTTP/1.1" 200 -
+2022-12-06 22:40:34,189 - INFO - 127.0.0.1 - - [06/Dec/2022 22:40:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-06 22:40:34,198 - INFO - 127.0.0.1 - - [06/Dec/2022 22:40:34] "[36mGET /static/owl.carousel.min.css HTTP/1.1[0m" 304 -
+2022-12-06 22:40:34,206 - INFO - 127.0.0.1 - - [06/Dec/2022 22:40:34] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-12-06 22:40:34,215 - INFO - 127.0.0.1 - - [06/Dec/2022 22:40:34] "[33mGET /js/jquery-3.3.1.min.js HTTP/1.1[0m" 404 -
+2022-12-06 22:40:34,229 - INFO - 127.0.0.1 - - [06/Dec/2022 22:40:34] "[33mGET /js/popper.min.js HTTP/1.1[0m" 404 -
+2022-12-06 22:40:34,234 - INFO - 127.0.0.1 - - [06/Dec/2022 22:40:34] "[33mGET /js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2022-12-06 22:40:34,245 - INFO - 127.0.0.1 - - [06/Dec/2022 22:40:34] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2022-12-06 22:40:53,581 - INFO - 127.0.0.1 - - [06/Dec/2022 22:40:53] "[35m[1mGET /perfil HTTP/1.1[0m" 500 -
+2022-12-06 22:40:53,620 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\soste\Projetos\varreduraDetran\app.py", line 257, in perfil
+    return render_template('perfil.html', user=user, count=count, dados=buscar_historico)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\soste\Projetos\varreduraDetran\templates\perfil.html", line 28, in top-level template code
+    <title>{{ dadosDataBase['marca'] }}</title>
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 466, in getitem
+    return obj[argument]
+jinja2.exceptions.UndefinedError: 'dadosDataBase' is undefined
+2022-12-06 22:42:17,173 - INFO - 127.0.0.1 - - [06/Dec/2022 22:42:17] "[35m[1mGET /perfil HTTP/1.1[0m" 500 -
+2022-12-06 22:42:17,175 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\soste\Projetos\varreduraDetran\app.py", line 257, in perfil
+    return render_template('perfil.html', user=user, count=count, dados=buscar_historico)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\soste\Projetos\varreduraDetran\templates\perfil.html", line 28, in top-level template code
+    <title>{{ dadosDataBase['marca'] }}</title>
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\jinja2\environment.py", line 466, in getitem
+    return obj[argument]
+jinja2.exceptions.UndefinedError: 'dadosDataBase' is undefined
+2022-12-06 22:55:37,363 - INFO - 127.0.0.1 - - [06/Dec/2022 22:55:37] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-06 22:55:37,391 - INFO - 127.0.0.1 - - [06/Dec/2022 22:55:37] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-06 22:55:37,398 - INFO - 127.0.0.1 - - [06/Dec/2022 22:55:37] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -

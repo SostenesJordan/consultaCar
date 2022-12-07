@@ -32,13 +32,20 @@ def registrar_consulta(user:str, dados:dict, user_id: str):
     collection_log_detran_rn = dataBase['log_detran_rn']
     collection_historico = dataBase['historico_usuario']
 
-    salvar_registro = collection_historico.insert_one({
-        'usuario': user,
+    validar_se_foi_visto = collection_historico.find_one({
         'id_usuario': str(user_id),
-        'data_consulta': datetime.utcnow(),
-        'veiculo_consultado': dados['marca'],
-        'dados_consulta': dados
+        'veiculo_consultado': dados['marca']
     })
+
+    if not validar_se_foi_visto:
+
+        salvar_registro = collection_historico.insert_one({
+            'usuario': user,
+            'id_usuario': str(user_id),
+            'data_consulta': datetime.utcnow(),
+            'veiculo_consultado': dados['marca'],
+            'dados_consulta': dados
+        })
 
 
     

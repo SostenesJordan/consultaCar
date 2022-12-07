@@ -20,6 +20,7 @@ db_name = "config"
 collection_detran_rn = dataBase['detran_rn']
 collection_usuarios = dataBase['usuarios']
 collection_log_detran_rn = dataBase['log_detran_rn']
+collection_historico = dataBase['historico_usuario']
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'mysecret'
@@ -241,6 +242,19 @@ def login():
         response['sucesso'] = True
 
         return render_template('consulta.html')
+
+@app.route('/perfil')
+def perfil():
+    user = session.get('email')
+    user_id = session.get('user_id')
+
+    buscar_historico = list(collection_historico.find({
+        'id_usuario': user_id
+    }))
+    count = len(buscar_historico)
+    lista_dados = []
+
+    return render_template('perfil.html', user=user, count=count, dados=buscar_historico)
 
 @app.route('/fazerLogin')
 def fazerLogin():
