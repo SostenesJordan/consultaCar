@@ -25,7 +25,7 @@
         crossorigin="anonymous"></script>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/dashboard/">
     <link rel="stylesheet" href="/static/perfil.css">
-    <title>{{ dadosDataBase['marca'] }}</title>
+    <title>Perfil</title>
 </head>
 
 <body>
@@ -37,15 +37,15 @@
             <div class="titulo">
               <h1>{{ user }}</h1>
               <h3>Consultas feitas: {{ count }}</h3>
-              <a href="http://"><img src="https://img.icons8.com/material-outlined/24/null/u-turn-to-left.png"/>Home page</a>
+              <a href="/home"><img src="https://img.icons8.com/material-outlined/24/null/u-turn-to-left.png"/>Home page</a>
             </div>
           </header>
       
           <main class="projetos">
             <ul>Seu histórico:<ul>
-                <!-- {% for dado in dados %}
-                    <li>dado['veiculo_consultado']</li>
-                {% endfor %} -->
+                {% for dado in dados %}
+                    <li> <strong>{{dado['veiculo_consultado']}}</strong> Placa: {{ dado['dados_consulta']['placa']  }} Renavam: {{ dado['dados_consulta']['renavam'] }}</li>
+                {% endfor %}
           </main>
         </div>
       </body>

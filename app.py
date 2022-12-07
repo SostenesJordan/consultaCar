@@ -252,8 +252,7 @@ def perfil():
         'id_usuario': user_id
     }))
     count = len(buscar_historico)
-    lista_dados = []
-
+    
     return render_template('perfil.html', user=user, count=count, dados=buscar_historico)
 
 @app.route('/fazerLogin')
@@ -263,7 +262,10 @@ def fazerLogin():
 @app.route('/fazerCadastro')
 def fazerCadastro():
     return render_template('registrar.html')
-    
+
+@app.route('/home')
+def home():
+    return render_template('index.html')   
 
 if __name__ in "__main__":
     app.secret_key = 'mysecret'
