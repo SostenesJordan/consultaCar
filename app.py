@@ -4,7 +4,7 @@ from database import Database
 from mongo import dataBase
 import json
 from funcoes.consultaVeiculo import consultarVeiculo
-from funcoes.utils import email_valido, registrar_consulta
+from funcoes.utils import email_valido, registrar_consulta, get_code
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_jwt_extended import JWTManager, create_access_token, jwt_required, get_jwt_identity
 from datetime import timedelta, datetime
@@ -25,7 +25,7 @@ collection_historico = dataBase['historico_usuario']
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'mysecret'
 app.config['JWT_SECRET_KEY'] = 'this-is-secret-key'
-app.config["SESSION_PERMANENT"] = False
+app.config["SESSION_PERMANENT"] = True
 app.config["SESSION_TYPE"] = "filesystem"
 jwt = JWTManager(app)
 
@@ -136,6 +136,8 @@ def enviar():
     else:
         licenciamento = 'Atrasado'
         link_documento = ''
+
+    registrar_consulta_user = registrar_consulta(user, pegar_dados, user_id)
 
     return render_template(
             'tabelaDados.html',
@@ -266,6 +268,12 @@ def fazerCadastro():
 @app.route('/home')
 def home():
     return render_template('index.html')   
+
+@app.route('/recuperarSenha')
+def recuperarSenha():
+    CODIGO = get_code(4)
+
+    
 
 if __name__ in "__main__":
     app.secret_key = 'mysecret'

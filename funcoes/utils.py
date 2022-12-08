@@ -4,6 +4,8 @@ import time
 from twocaptcha import TwoCaptcha
 from mongo import dataBase
 from datetime import datetime
+import random
+import string
 # para da certo a lib do 2 captcha tem que ser essa:
 # pip install 2captcha-python
 
@@ -47,7 +49,14 @@ def registrar_consulta(user:str, dados:dict, user_id: str):
             'dados_consulta': dados
         })
 
+def get_code(length):
+    letters = string.ascii_lowercase
+    result_str = ''.join(random.choice(letters) for i in range(length))
+    
+    return result_str
 
+def enviar_email(codigo:str, email:str):
+    pass
     
 # def metodoGet(url):
 
