@@ -4,7 +4,7 @@ from database import Database
 from mongo import dataBase
 import json
 from funcoes.consultaVeiculo import consultarVeiculo
-from funcoes.utils import email_valido, registrar_consulta, get_code
+from funcoes.utils import email_valido, registrar_consulta, get_code, enviar_email
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_jwt_extended import JWTManager, create_access_token, jwt_required, get_jwt_identity
 from datetime import timedelta, datetime
@@ -269,11 +269,37 @@ def fazerCadastro():
 def home():
     return render_template('index.html')   
 
-@app.route('/recuperarSenha')
-def recuperarSenha():
+@app.route('/enviarEmail')
+def enviarEmail():
     CODIGO = get_code(4)
+    USER = session.get('email')
 
-    
+    enviar = enviar_email(CODIGO, USER)
+
+    if enviar == 'Ok':
+        return render_template('')
+    else:
+        # tentar novamente
+        enviar = enviar_email(CODIGO, USER)
+
+        if enviar == 'Ok':
+            return render_template('')
+        else:
+            pass
+
+@app.route('/mudarSenha', methods=['POST'])
+def mudarSenha():
+    USER = session.get('email')
+    senha = request.form['senha']
+
+    buscar = collection_usuarios.update_one({
+        'email': USER
+    }, { '$set': { 'senha': generate_password_hash(senha) } })
+
+    if buscar.matched_count > 0:
+        confirmacao_mudanca = 'Sua senha foi alterada com sucesso!'
+        return render_template('mudarSenha.html')
+
 
 if __name__ in "__main__":
     app.secret_key = 'mysecret'

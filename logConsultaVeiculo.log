@@ -3164,3 +3164,98 @@ TypeError: unsupported operand type(s) for -: 'str' and 'dict'
 2022-12-07 17:30:29,550 - INFO - 127.0.0.1 - - [07/Dec/2022 17:30:29] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
 2022-12-07 17:30:29,573 - INFO - 127.0.0.1 - - [07/Dec/2022 17:30:29] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
 2022-12-07 17:30:29,669 - INFO - 127.0.0.1 - - [07/Dec/2022 17:30:29] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-07 22:25:33,722 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-07 22:25:33,723 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-07 22:25:45,874 - INFO - 127.0.0.1 - - [07/Dec/2022 22:25:45] "GET / HTTP/1.1" 200 -
+2022-12-07 22:25:46,348 - INFO - 127.0.0.1 - - [07/Dec/2022 22:25:46] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-07 22:25:46,351 - INFO - 127.0.0.1 - - [07/Dec/2022 22:25:46] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-07 22:25:46,354 - INFO - 127.0.0.1 - - [07/Dec/2022 22:25:46] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-07 22:25:48,707 - INFO - 127.0.0.1 - - [07/Dec/2022 22:25:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-12-07 22:25:52,725 - INFO - 127.0.0.1 - - [07/Dec/2022 22:25:52] "GET /fazerLogin HTTP/1.1" 200 -
+2022-12-07 22:25:52,773 - INFO - 127.0.0.1 - - [07/Dec/2022 22:25:52] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-07 22:26:10,467 - INFO - 127.0.0.1 - - [07/Dec/2022 22:26:10] "POST /login HTTP/1.1" 200 -
+2022-12-07 22:26:10,494 - INFO - 127.0.0.1 - - [07/Dec/2022 22:26:10] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-07 22:26:18,327 - INFO - 127.0.0.1 - - [07/Dec/2022 22:26:18] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+2022-12-07 22:26:33,892 - INFO - 127.0.0.1 - - [07/Dec/2022 22:26:33] "GET /perfil HTTP/1.1" 200 -
+2022-12-07 22:26:33,922 - INFO - 127.0.0.1 - - [07/Dec/2022 22:26:33] "GET /static/perfil.css HTTP/1.1" 200 -
+2022-12-07 22:26:33,928 - INFO - 127.0.0.1 - - [07/Dec/2022 22:26:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-07 22:26:33,958 - INFO - 127.0.0.1 - - [07/Dec/2022 22:26:33] "[33mGET /js/jquery-3.3.1.min.js HTTP/1.1[0m" 404 -
+2022-12-07 22:26:34,018 - INFO - 127.0.0.1 - - [07/Dec/2022 22:26:34] "[33mGET /js/popper.min.js HTTP/1.1[0m" 404 -
+2022-12-07 22:26:34,038 - INFO - 127.0.0.1 - - [07/Dec/2022 22:26:34] "[33mGET /js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2022-12-07 22:26:34,053 - INFO - 127.0.0.1 - - [07/Dec/2022 22:26:34] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2022-12-07 22:26:56,285 - INFO - 127.0.0.1 - - [07/Dec/2022 22:26:56] "POST /login HTTP/1.1" 200 -
+2022-12-07 22:26:56,312 - INFO - 127.0.0.1 - - [07/Dec/2022 22:26:56] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-07 22:27:01,129 - INFO - 127.0.0.1 - - [07/Dec/2022 22:27:01] "POST /enviar HTTP/1.1" 200 -
+2022-12-07 22:27:01,154 - INFO - 127.0.0.1 - - [07/Dec/2022 22:27:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-07 22:27:01,170 - INFO - 127.0.0.1 - - [07/Dec/2022 22:27:01] "[36mGET /static/owl.carousel.min.css HTTP/1.1[0m" 304 -
+2022-12-07 22:27:01,179 - INFO - 127.0.0.1 - - [07/Dec/2022 22:27:01] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-12-07 22:27:01,185 - INFO - 127.0.0.1 - - [07/Dec/2022 22:27:01] "[33mGET /js/jquery-3.3.1.min.js HTTP/1.1[0m" 404 -
+2022-12-07 22:27:01,191 - INFO - 127.0.0.1 - - [07/Dec/2022 22:27:01] "[33mGET /js/popper.min.js HTTP/1.1[0m" 404 -
+2022-12-07 22:27:01,198 - INFO - 127.0.0.1 - - [07/Dec/2022 22:27:01] "[33mGET /js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2022-12-07 22:27:01,203 - INFO - 127.0.0.1 - - [07/Dec/2022 22:27:01] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2022-12-07 22:27:23,356 - INFO - 127.0.0.1 - - [07/Dec/2022 22:27:23] "POST /login HTTP/1.1" 200 -
+2022-12-07 22:27:23,383 - INFO - 127.0.0.1 - - [07/Dec/2022 22:27:23] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-07 22:27:28,552 - INFO - 127.0.0.1 - - [07/Dec/2022 22:27:28] "POST /enviar HTTP/1.1" 200 -
+2022-12-07 22:27:28,579 - INFO - 127.0.0.1 - - [07/Dec/2022 22:27:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-07 22:27:28,586 - INFO - 127.0.0.1 - - [07/Dec/2022 22:27:28] "[36mGET /static/owl.carousel.min.css HTTP/1.1[0m" 304 -
+2022-12-07 22:27:28,596 - INFO - 127.0.0.1 - - [07/Dec/2022 22:27:28] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-12-07 22:27:28,603 - INFO - 127.0.0.1 - - [07/Dec/2022 22:27:28] "[33mGET /js/jquery-3.3.1.min.js HTTP/1.1[0m" 404 -
+2022-12-07 22:27:28,614 - INFO - 127.0.0.1 - - [07/Dec/2022 22:27:28] "[33mGET /js/popper.min.js HTTP/1.1[0m" 404 -
+2022-12-07 22:27:28,621 - INFO - 127.0.0.1 - - [07/Dec/2022 22:27:28] "[33mGET /js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2022-12-07 22:27:28,628 - INFO - 127.0.0.1 - - [07/Dec/2022 22:27:28] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2022-12-07 22:27:31,922 - INFO - 127.0.0.1 - - [07/Dec/2022 22:27:31] "GET /perfil HTTP/1.1" 200 -
+2022-12-07 22:27:31,944 - INFO - 127.0.0.1 - - [07/Dec/2022 22:27:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-07 22:27:31,951 - INFO - 127.0.0.1 - - [07/Dec/2022 22:27:31] "[36mGET /static/perfil.css HTTP/1.1[0m" 304 -
+2022-12-07 22:27:31,988 - INFO - 127.0.0.1 - - [07/Dec/2022 22:27:31] "[33mGET /js/jquery-3.3.1.min.js HTTP/1.1[0m" 404 -
+2022-12-07 22:27:32,030 - INFO - 127.0.0.1 - - [07/Dec/2022 22:27:32] "[33mGET /js/popper.min.js HTTP/1.1[0m" 404 -
+2022-12-07 22:27:32,045 - INFO - 127.0.0.1 - - [07/Dec/2022 22:27:32] "[33mGET /js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2022-12-07 22:27:32,055 - INFO - 127.0.0.1 - - [07/Dec/2022 22:27:32] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2022-12-07 22:28:08,233 - INFO - 127.0.0.1 - - [07/Dec/2022 22:28:08] "GET / HTTP/1.1" 200 -
+2022-12-07 22:28:08,255 - INFO - 127.0.0.1 - - [07/Dec/2022 22:28:08] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-07 22:28:08,303 - INFO - 127.0.0.1 - - [07/Dec/2022 22:28:08] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-07 22:28:08,313 - INFO - 127.0.0.1 - - [07/Dec/2022 22:28:08] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-07 22:28:10,558 - INFO - 127.0.0.1 - - [07/Dec/2022 22:28:10] "GET /fazerLogin HTTP/1.1" 200 -
+2022-12-07 22:28:10,580 - INFO - 127.0.0.1 - - [07/Dec/2022 22:28:10] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-07 22:28:21,602 - INFO - 127.0.0.1 - - [07/Dec/2022 22:28:21] "POST /login HTTP/1.1" 200 -
+2022-12-07 22:28:21,632 - INFO - 127.0.0.1 - - [07/Dec/2022 22:28:21] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-07 22:28:30,141 - INFO - 127.0.0.1 - - [07/Dec/2022 22:28:30] "[35m[1mPOST /enviar HTTP/1.1[0m" 500 -
+2022-12-07 22:28:30,175 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\soste\Projetos\varreduraDetran\app.py", line 55, in enviar
+    renavam = pegar_dados['renavam']
+TypeError: 'NoneType' object is not subscriptable
+2022-12-07 22:28:37,657 - INFO - 127.0.0.1 - - [07/Dec/2022 22:28:37] "POST /login HTTP/1.1" 200 -
+2022-12-07 22:28:37,686 - INFO - 127.0.0.1 - - [07/Dec/2022 22:28:37] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-07 22:30:17,801 - INFO - 127.0.0.1 - - [07/Dec/2022 22:30:17] "POST /enviar HTTP/1.1" 200 -
+2022-12-07 22:30:17,853 - INFO - 127.0.0.1 - - [07/Dec/2022 22:30:17] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2022-12-07 22:30:17,860 - INFO - 127.0.0.1 - - [07/Dec/2022 22:30:17] "[33mGET /js/popper.min.js HTTP/1.1[0m" 404 -
+2022-12-07 22:30:17,869 - INFO - 127.0.0.1 - - [07/Dec/2022 22:30:17] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-12-07 22:30:17,875 - INFO - 127.0.0.1 - - [07/Dec/2022 22:30:17] "[36mGET /static/owl.carousel.min.css HTTP/1.1[0m" 304 -
+2022-12-07 22:30:17,883 - INFO - 127.0.0.1 - - [07/Dec/2022 22:30:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-07 22:30:17,893 - INFO - 127.0.0.1 - - [07/Dec/2022 22:30:17] "[33mGET /js/jquery-3.3.1.min.js HTTP/1.1[0m" 404 -
+2022-12-07 22:30:17,902 - INFO - 127.0.0.1 - - [07/Dec/2022 22:30:17] "[33mGET /js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2022-12-07 22:30:18,167 - INFO - 127.0.0.1 - - [07/Dec/2022 22:30:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-07 22:31:07,098 - INFO - 127.0.0.1 - - [07/Dec/2022 22:31:07] "GET /perfil HTTP/1.1" 200 -
+2022-12-07 22:31:07,126 - INFO - 127.0.0.1 - - [07/Dec/2022 22:31:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-07 22:31:07,135 - INFO - 127.0.0.1 - - [07/Dec/2022 22:31:07] "[36mGET /static/perfil.css HTTP/1.1[0m" 304 -
+2022-12-07 22:31:07,175 - INFO - 127.0.0.1 - - [07/Dec/2022 22:31:07] "[33mGET /js/jquery-3.3.1.min.js HTTP/1.1[0m" 404 -
+2022-12-07 22:31:07,181 - INFO - 127.0.0.1 - - [07/Dec/2022 22:31:07] "[33mGET /js/popper.min.js HTTP/1.1[0m" 404 -
+2022-12-07 22:31:07,260 - INFO - 127.0.0.1 - - [07/Dec/2022 22:31:07] "[33mGET /js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2022-12-07 22:31:07,283 - INFO - 127.0.0.1 - - [07/Dec/2022 22:31:07] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
