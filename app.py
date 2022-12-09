@@ -275,15 +275,16 @@ def enviarEmail():
     USER = session.get('email')
 
     enviar = enviar_email(CODIGO, USER)
-
+    mensagem = "Um código foi enviado parao seu email."
     if enviar == 'Ok':
-        return render_template('')
+        return render_template('login.html', mensagem_email = mensagem)
     else:
         # tentar novamente
         enviar = enviar_email(CODIGO, USER)
+        session['email_codigo'] = CODIGO
 
         if enviar == 'Ok':
-            return render_template('')
+            return render_template('login.html', mensagem_email = mensagem)
         else:
             pass
 
@@ -291,14 +292,21 @@ def enviarEmail():
 def mudarSenha():
     USER = session.get('email')
     senha = request.form['senha']
+    CODIGO = request.form['codigo']
 
-    buscar = collection_usuarios.update_one({
-        'email': USER
-    }, { '$set': { 'senha': generate_password_hash(senha) } })
+    if CODIGO == session.get('email_codigo'):
+
+        buscar = collection_usuarios.update_one({
+            'email': USER
+        }, { '$set': { 'senha': generate_password_hash(senha) } })
 
     if buscar.matched_count > 0:
         confirmacao_mudanca = 'Sua senha foi alterada com sucesso!'
-        return render_template('mudarSenha.html')
+        return render_template('mudarSenha.html', confirmacao_mudanca = confirmacao_mudanca)
+
+@app.route('/paginaMudarSenha', methods=['POST'])
+def mudarSenha():
+    return render_template('mudarSenha.html')
 
 
 if __name__ in "__main__":

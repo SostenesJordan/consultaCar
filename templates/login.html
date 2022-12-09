@@ -38,6 +38,10 @@
       {% if error %}
          <p style="color:aliceblue;"><strong>Aviso:</strong> {{ error }}</p>
       {% endif %}
+
+      {% if mensagem_email %}
+         <p style="color:aliceblue;"><strong>Aviso:</strong> {{ mensagem_email }} Esse link é para mudar a sua senha <a href="http://" target="_blank" rel="noopener noreferrer"></a></p>
+      {% endif %}
       <form action="{{ url_for('login') }}" method="post">
          <div class="user-box">
             <input type="email" id="email" name="email" required="">
@@ -49,6 +53,7 @@
          </div>
 
          <button type="submit" class="btn btn-primary btn-salvar">Enviar</button>
+         <a href="http://" target="_blank" rel="noopener noreferrer"></a>
       </form>
    </div>
 </body>
