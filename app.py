@@ -224,6 +224,8 @@ def login():
         'email': email
     })
 
+    mensagem_erro_senha = 'Sua senha ou usuario está errado, tente novamente'
+
     if not buscar:
         response['mensagem'] = 'Usuario não encontrado.'
         error = 'Usuario ou senha invalido, tente novamente'
@@ -244,6 +246,9 @@ def login():
         response['sucesso'] = True
 
         return render_template('consulta.html')
+
+    else:
+        return render_template('login.html', mensagem_erro_senha= mensagem_erro_senha)
 
 @app.route('/perfil')
 def perfil():
@@ -275,8 +280,9 @@ def enviarEmail():
     USER = session.get('email')
 
     enviar = enviar_email(CODIGO, USER)
-    mensagem = "Um código foi enviado parao seu email."
+    mensagem = "Um código foi enviado para o seu email."
     if enviar == 'Ok':
+        session['email_codigo'] = CODIGO
         return render_template('login.html', mensagem_email = mensagem)
     else:
         # tentar novamente
@@ -293,19 +299,23 @@ def mudarSenha():
     USER = session.get('email')
     senha = request.form['senha']
     CODIGO = request.form['codigo']
+    confirmacao_mudanca = 'Sua senha foi alterada com sucesso!'
+    codigo_errado = 'O codigo digitado está errado, verifique o novamente seu email'
 
     if CODIGO == session.get('email_codigo'):
 
         buscar = collection_usuarios.update_one({
             'email': USER
         }, { '$set': { 'senha': generate_password_hash(senha) } })
+    else:
+        return render_template('mudarSenha.html', codigo_errado= codigo_errado)
 
     if buscar.matched_count > 0:
-        confirmacao_mudanca = 'Sua senha foi alterada com sucesso!'
         return render_template('mudarSenha.html', confirmacao_mudanca = confirmacao_mudanca)
 
-@app.route('/paginaMudarSenha', methods=['POST'])
-def mudarSenha():
+
+@app.route('/paginaMudarSenha')
+def paginaMudarSenha():
     return render_template('mudarSenha.html')
 
 
