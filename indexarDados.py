@@ -132,6 +132,15 @@ def indexacaoDados():
             if(len(validarSeExiste) >= 1):
                 # já existe no banco
                 last_value = last_value - 1
+                if forma_de_varrer_02:
+                    updateLastValue = collection_log_detran_rn.update_one({
+                        "last_value_02" : True
+                    }, { '$set': { 'valor': last_value } })
+                else:
+                    updateLastValue = collection_log_detran_rn.update_one({
+                        "last_value" : True
+                    }, { '$set': { 'valor': last_value } })
+
                 print(f'já cadastrado - {placa} - faltam {last_value}')
                 continue
 
@@ -170,8 +179,16 @@ def indexacaoDados():
             ultimoValor = last_value
 
             # salvar_log = database.insert_object({ 'ultimoValor': last_value, 'data': datetime.utcnow(), 'departamento': 'detranRN' }, collection_logDetranRN)
-
-            salvar_log = collection_log_detran_rn.insert_one({ 'ultimoValor': last_value, 'data': datetime.utcnow(), 'departamento': 'detranRN' })
+            if forma_de_varrer_02:
+                updateLastValue = collection_log_detran_rn.update_one({
+                    "last_value_02" : True
+                }, { '$set': { 'valor': last_value } })
+            else:
+                updateLastValue = collection_log_detran_rn.update_one({
+                    "last_value" : True
+                }, { '$set': { 'valor': last_value } })
+            
+            #salvar_log = collection_log_detran_rn.insert_one({ 'ultimoValor': last_value, 'data': datetime.utcnow(), 'departamento': 'detranRN' })
             continue
 
         last_value = last_value - 1
