@@ -46,10 +46,16 @@
             {{ msgEmail_invalido }}
          </p>
       {% endif %}
-      
-      {% if mensagem_usuario_cadastrado %}
+
+      {% if confirmacao_mudanca %}
          <p style="color:aliceblue;">
-            {{ mensagem_usuario_cadastrado }} <a href="/fazerLogin"> Login</a>
+            {{ confirmacao_mudanca }} <a href="/fazerLogin"> Login</a>
+         </p>
+      {% endif %}
+
+      {% if codigo_errado %}
+         <p style="color:aliceblue;">
+            {{ codigo_errado }} <a href="/fazerLogin"> Login</a>
          </p>
       {% endif %}
 
@@ -57,6 +63,11 @@
          <div class="user-box">
             <input type="password" id="senha" name="senha" required="">
             <label>Sua nova senha aqui</label>
+         </div>
+
+         <div class="user-box">
+            <input type="text" id="codigo" name="codigo" required="">
+            <label>Codigo de confirmação</label>
          </div>
 
          <button type="submit" class="btn btn-primary btn-salvar">Enviar</button>
