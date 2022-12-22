@@ -3259,3 +3259,546 @@ TypeError: 'NoneType' object is not subscriptable
 2022-12-07 22:31:07,181 - INFO - 127.0.0.1 - - [07/Dec/2022 22:31:07] "[33mGET /js/popper.min.js HTTP/1.1[0m" 404 -
 2022-12-07 22:31:07,260 - INFO - 127.0.0.1 - - [07/Dec/2022 22:31:07] "[33mGET /js/bootstrap.min.js HTTP/1.1[0m" 404 -
 2022-12-07 22:31:07,283 - INFO - 127.0.0.1 - - [07/Dec/2022 22:31:07] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2022-12-09 18:50:44,982 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 18:50:44,983 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-09 18:50:54,796 - INFO - 127.0.0.1 - - [09/Dec/2022 18:50:54] "GET / HTTP/1.1" 200 -
+2022-12-09 18:50:54,971 - INFO - 127.0.0.1 - - [09/Dec/2022 18:50:54] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 18:50:54,975 - INFO - 127.0.0.1 - - [09/Dec/2022 18:50:54] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 18:50:54,976 - INFO - 127.0.0.1 - - [09/Dec/2022 18:50:54] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 18:50:56,742 - INFO - 127.0.0.1 - - [09/Dec/2022 18:50:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-12-09 18:50:59,106 - INFO - 127.0.0.1 - - [09/Dec/2022 18:50:59] "GET /fazerLogin HTTP/1.1" 200 -
+2022-12-09 18:50:59,125 - INFO - 127.0.0.1 - - [09/Dec/2022 18:50:59] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 18:51:13,543 - INFO - 127.0.0.1 - - [09/Dec/2022 18:51:13] "GET /enviarEmail HTTP/1.1" 200 -
+2022-12-09 18:51:13,569 - INFO - 127.0.0.1 - - [09/Dec/2022 18:51:13] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 18:52:17,955 - INFO - 127.0.0.1 - - [09/Dec/2022 18:52:17] "GET /enviarEmail HTTP/1.1" 200 -
+2022-12-09 18:52:17,992 - INFO - 127.0.0.1 - - [09/Dec/2022 18:52:17] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 18:52:43,006 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 18:52:43,006 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-09 18:53:10,886 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 18:53:10,887 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-09 18:53:13,298 - INFO - 127.0.0.1 - - [09/Dec/2022 18:53:13] "GET / HTTP/1.1" 200 -
+2022-12-09 18:53:13,446 - INFO - 127.0.0.1 - - [09/Dec/2022 18:53:13] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 18:53:13,517 - INFO - 127.0.0.1 - - [09/Dec/2022 18:53:13] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 18:53:13,523 - INFO - 127.0.0.1 - - [09/Dec/2022 18:53:13] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 18:53:15,407 - INFO - 127.0.0.1 - - [09/Dec/2022 18:53:15] "GET /fazerLogin HTTP/1.1" 200 -
+2022-12-09 18:53:15,425 - INFO - 127.0.0.1 - - [09/Dec/2022 18:53:15] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 18:54:55,885 - INFO - 127.0.0.1 - - [09/Dec/2022 18:54:55] "GET /enviarEmail HTTP/1.1" 200 -
+2022-12-09 18:54:55,920 - INFO - 127.0.0.1 - - [09/Dec/2022 18:54:55] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 19:00:21,857 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 19:00:21,857 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-09 19:00:32,312 - INFO - 127.0.0.1 - - [09/Dec/2022 19:00:32] "GET /enviarEmail HTTP/1.1" 200 -
+2022-12-09 19:00:32,409 - INFO - 127.0.0.1 - - [09/Dec/2022 19:00:32] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 19:01:07,868 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 19:01:07,869 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-09 19:01:39,545 - INFO - 127.0.0.1 - - [09/Dec/2022 19:01:39] "GET /enviarEmail HTTP/1.1" 200 -
+2022-12-09 19:01:39,699 - INFO - 127.0.0.1 - - [09/Dec/2022 19:01:39] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 19:01:44,103 - INFO - 127.0.0.1 - - [09/Dec/2022 19:01:44] "GET /paginaMudarSenha HTTP/1.1" 200 -
+2022-12-09 19:01:44,124 - INFO - 127.0.0.1 - - [09/Dec/2022 19:01:44] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 19:03:04,469 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 19:03:04,470 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-09 19:03:11,890 - INFO - 127.0.0.1 - - [09/Dec/2022 19:03:11] "GET / HTTP/1.1" 200 -
+2022-12-09 19:03:12,190 - INFO - 127.0.0.1 - - [09/Dec/2022 19:03:12] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 19:03:12,194 - INFO - 127.0.0.1 - - [09/Dec/2022 19:03:12] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 19:03:12,198 - INFO - 127.0.0.1 - - [09/Dec/2022 19:03:12] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 19:03:14,104 - INFO - 127.0.0.1 - - [09/Dec/2022 19:03:14] "GET /fazerLogin HTTP/1.1" 200 -
+2022-12-09 19:03:14,123 - INFO - 127.0.0.1 - - [09/Dec/2022 19:03:14] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 19:03:18,530 - INFO - 127.0.0.1 - - [09/Dec/2022 19:03:18] "GET /enviarEmail HTTP/1.1" 200 -
+2022-12-09 19:03:18,556 - INFO - 127.0.0.1 - - [09/Dec/2022 19:03:18] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 19:03:36,939 - INFO - 127.0.0.1 - - [09/Dec/2022 19:03:36] "GET /paginaMudarSenha HTTP/1.1" 200 -
+2022-12-09 19:03:36,961 - INFO - 127.0.0.1 - - [09/Dec/2022 19:03:36] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 19:05:13,709 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 19:05:13,709 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-09 19:05:15,324 - INFO - 127.0.0.1 - - [09/Dec/2022 19:05:15] "GET / HTTP/1.1" 200 -
+2022-12-09 19:05:15,473 - INFO - 127.0.0.1 - - [09/Dec/2022 19:05:15] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 19:05:15,580 - INFO - 127.0.0.1 - - [09/Dec/2022 19:05:15] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 19:05:15,582 - INFO - 127.0.0.1 - - [09/Dec/2022 19:05:15] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 19:05:22,938 - INFO - 127.0.0.1 - - [09/Dec/2022 19:05:22] "GET /fazerLogin HTTP/1.1" 200 -
+2022-12-09 19:05:22,960 - INFO - 127.0.0.1 - - [09/Dec/2022 19:05:22] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 19:05:28,078 - INFO - 127.0.0.1 - - [09/Dec/2022 19:05:28] "GET /enviarEmail HTTP/1.1" 200 -
+2022-12-09 19:05:28,107 - INFO - 127.0.0.1 - - [09/Dec/2022 19:05:28] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 19:05:31,109 - INFO - 127.0.0.1 - - [09/Dec/2022 19:05:31] "GET /paginaMudarSenha HTTP/1.1" 200 -
+2022-12-09 19:05:31,161 - INFO - 127.0.0.1 - - [09/Dec/2022 19:05:31] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 19:06:08,844 - INFO - 127.0.0.1 - - [09/Dec/2022 19:06:08] "POST /mudarSenha HTTP/1.1" 200 -
+2022-12-09 19:06:08,897 - INFO - 127.0.0.1 - - [09/Dec/2022 19:06:08] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 19:06:13,783 - INFO - 127.0.0.1 - - [09/Dec/2022 19:06:13] "GET /fazerLogin HTTP/1.1" 200 -
+2022-12-09 19:06:13,805 - INFO - 127.0.0.1 - - [09/Dec/2022 19:06:13] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 19:06:26,477 - INFO - 127.0.0.1 - - [09/Dec/2022 19:06:26] "POST /login HTTP/1.1" 200 -
+2022-12-09 19:06:26,503 - INFO - 127.0.0.1 - - [09/Dec/2022 19:06:26] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 19:06:31,533 - INFO - 127.0.0.1 - - [09/Dec/2022 19:06:31] "POST /enviar HTTP/1.1" 200 -
+2022-12-09 19:06:31,560 - INFO - 127.0.0.1 - - [09/Dec/2022 19:06:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-09 19:06:31,573 - INFO - 127.0.0.1 - - [09/Dec/2022 19:06:31] "[36mGET /static/owl.carousel.min.css HTTP/1.1[0m" 304 -
+2022-12-09 19:06:31,575 - INFO - 127.0.0.1 - - [09/Dec/2022 19:06:31] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-12-09 19:06:31,583 - INFO - 127.0.0.1 - - [09/Dec/2022 19:06:31] "[33mGET /js/jquery-3.3.1.min.js HTTP/1.1[0m" 404 -
+2022-12-09 19:06:31,589 - INFO - 127.0.0.1 - - [09/Dec/2022 19:06:31] "[33mGET /js/popper.min.js HTTP/1.1[0m" 404 -
+2022-12-09 19:06:31,594 - INFO - 127.0.0.1 - - [09/Dec/2022 19:06:31] "[33mGET /js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2022-12-09 19:06:31,600 - INFO - 127.0.0.1 - - [09/Dec/2022 19:06:31] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2022-12-09 19:06:43,023 - INFO - 127.0.0.1 - - [09/Dec/2022 19:06:43] "GET /perfil HTTP/1.1" 200 -
+2022-12-09 19:06:43,046 - INFO - 127.0.0.1 - - [09/Dec/2022 19:06:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-09 19:06:43,052 - INFO - 127.0.0.1 - - [09/Dec/2022 19:06:43] "[36mGET /static/perfil.css HTTP/1.1[0m" 304 -
+2022-12-09 19:06:43,080 - INFO - 127.0.0.1 - - [09/Dec/2022 19:06:43] "[33mGET /js/jquery-3.3.1.min.js HTTP/1.1[0m" 404 -
+2022-12-09 19:06:43,137 - INFO - 127.0.0.1 - - [09/Dec/2022 19:06:43] "[33mGET /js/popper.min.js HTTP/1.1[0m" 404 -
+2022-12-09 19:06:43,148 - INFO - 127.0.0.1 - - [09/Dec/2022 19:06:43] "[33mGET /js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2022-12-09 19:06:43,153 - INFO - 127.0.0.1 - - [09/Dec/2022 19:06:43] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2022-12-09 19:06:51,161 - INFO - 127.0.0.1 - - [09/Dec/2022 19:06:51] "GET /home HTTP/1.1" 200 -
+2022-12-09 19:06:51,184 - INFO - 127.0.0.1 - - [09/Dec/2022 19:06:51] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 19:06:51,214 - INFO - 127.0.0.1 - - [09/Dec/2022 19:06:51] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 19:06:51,220 - INFO - 127.0.0.1 - - [09/Dec/2022 19:06:51] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 19:11:42,819 - INFO - 127.0.0.1 - - [09/Dec/2022 19:11:42] "GET /fazerLogin HTTP/1.1" 200 -
+2022-12-09 19:11:42,886 - INFO - 127.0.0.1 - - [09/Dec/2022 19:11:42] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 19:11:47,899 - INFO - 127.0.0.1 - - [09/Dec/2022 19:11:47] "GET /enviarEmail HTTP/1.1" 200 -
+2022-12-09 19:11:47,934 - INFO - 127.0.0.1 - - [09/Dec/2022 19:11:47] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 19:11:51,050 - INFO - 127.0.0.1 - - [09/Dec/2022 19:11:51] "GET /paginaMudarSenha HTTP/1.1" 200 -
+2022-12-09 19:11:51,118 - INFO - 127.0.0.1 - - [09/Dec/2022 19:11:51] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 19:12:29,606 - INFO - 127.0.0.1 - - [09/Dec/2022 19:12:29] "POST /mudarSenha HTTP/1.1" 200 -
+2022-12-09 19:12:29,650 - INFO - 127.0.0.1 - - [09/Dec/2022 19:12:29] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 19:45:21,151 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 19:45:21,151 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-09 19:45:21,526 - INFO - 127.0.0.1 - - [09/Dec/2022 19:45:21] "GET / HTTP/1.1" 200 -
+2022-12-09 19:45:21,659 - INFO - 127.0.0.1 - - [09/Dec/2022 19:45:21] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 19:45:21,667 - INFO - 127.0.0.1 - - [09/Dec/2022 19:45:21] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 19:45:21,668 - INFO - 127.0.0.1 - - [09/Dec/2022 19:45:21] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 19:45:24,652 - INFO - 127.0.0.1 - - [09/Dec/2022 19:45:24] "GET /fazerLogin HTTP/1.1" 200 -
+2022-12-09 19:45:24,711 - INFO - 127.0.0.1 - - [09/Dec/2022 19:45:24] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 19:45:35,127 - INFO - 127.0.0.1 - - [09/Dec/2022 19:45:35] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-12-09 19:45:35,150 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1842, in finalize_request
+    response = self.make_response(rv)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2134, in make_response
+    raise TypeError(
+TypeError: The view function for 'login' did not return a valid response. The function either returned None or ended without a return statement.
+2022-12-09 19:45:40,235 - INFO - 127.0.0.1 - - [09/Dec/2022 19:45:40] "POST /login HTTP/1.1" 200 -
+2022-12-09 19:45:40,258 - INFO - 127.0.0.1 - - [09/Dec/2022 19:45:40] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 19:49:00,340 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 19:49:00,341 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-09 19:49:03,045 - INFO - 127.0.0.1 - - [09/Dec/2022 19:49:03] "POST /login HTTP/1.1" 200 -
+2022-12-09 19:49:03,140 - INFO - 127.0.0.1 - - [09/Dec/2022 19:49:03] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 19:49:22,298 - INFO - 127.0.0.1 - - [09/Dec/2022 19:49:22] "GET /enviarEmail HTTP/1.1" 200 -
+2022-12-09 19:49:22,323 - INFO - 127.0.0.1 - - [09/Dec/2022 19:49:22] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 20:04:26,319 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 20:04:26,320 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-09 20:04:26,431 - INFO - 127.0.0.1 - - [09/Dec/2022 20:04:26] "GET / HTTP/1.1" 200 -
+2022-12-09 20:04:26,645 - INFO - 127.0.0.1 - - [09/Dec/2022 20:04:26] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 20:04:26,648 - INFO - 127.0.0.1 - - [09/Dec/2022 20:04:26] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 20:04:26,653 - INFO - 127.0.0.1 - - [09/Dec/2022 20:04:26] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 20:04:31,119 - INFO - 127.0.0.1 - - [09/Dec/2022 20:04:31] "GET /fazerCadastro HTTP/1.1" 200 -
+2022-12-09 20:04:31,176 - INFO - 127.0.0.1 - - [09/Dec/2022 20:04:31] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 20:04:56,377 - INFO - 127.0.0.1 - - [09/Dec/2022 20:04:56] "POST /registrar HTTP/1.1" 200 -
+2022-12-09 20:04:56,397 - INFO - 127.0.0.1 - - [09/Dec/2022 20:04:56] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 20:05:00,069 - INFO - 127.0.0.1 - - [09/Dec/2022 20:05:00] "GET /fazerLogin HTTP/1.1" 200 -
+2022-12-09 20:05:00,087 - INFO - 127.0.0.1 - - [09/Dec/2022 20:05:00] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 20:05:10,519 - INFO - 127.0.0.1 - - [09/Dec/2022 20:05:10] "POST /login HTTP/1.1" 200 -
+2022-12-09 20:05:10,544 - INFO - 127.0.0.1 - - [09/Dec/2022 20:05:10] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 20:05:21,139 - INFO - 127.0.0.1 - - [09/Dec/2022 20:05:21] "POST /enviar HTTP/1.1" 200 -
+2022-12-09 20:05:21,168 - INFO - 127.0.0.1 - - [09/Dec/2022 20:05:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-09 20:05:21,170 - INFO - 127.0.0.1 - - [09/Dec/2022 20:05:21] "[36mGET /static/owl.carousel.min.css HTTP/1.1[0m" 304 -
+2022-12-09 20:05:21,179 - INFO - 127.0.0.1 - - [09/Dec/2022 20:05:21] "[33mGET /js/jquery-3.3.1.min.js HTTP/1.1[0m" 404 -
+2022-12-09 20:05:21,181 - INFO - 127.0.0.1 - - [09/Dec/2022 20:05:21] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-12-09 20:05:21,185 - INFO - 127.0.0.1 - - [09/Dec/2022 20:05:21] "[33mGET /js/popper.min.js HTTP/1.1[0m" 404 -
+2022-12-09 20:05:21,196 - INFO - 127.0.0.1 - - [09/Dec/2022 20:05:21] "[33mGET /js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2022-12-09 20:05:21,204 - INFO - 127.0.0.1 - - [09/Dec/2022 20:05:21] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2022-12-09 20:05:21,618 - INFO - 127.0.0.1 - - [09/Dec/2022 20:05:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-09 21:13:49,301 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 21:13:49,302 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-09 21:13:49,338 - INFO - 127.0.0.1 - - [09/Dec/2022 21:13:49] "GET / HTTP/1.1" 200 -
+2022-12-09 21:13:49,497 - INFO - 127.0.0.1 - - [09/Dec/2022 21:13:49] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 21:13:49,503 - INFO - 127.0.0.1 - - [09/Dec/2022 21:13:49] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 21:13:49,508 - INFO - 127.0.0.1 - - [09/Dec/2022 21:13:49] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 21:13:52,551 - INFO - 127.0.0.1 - - [09/Dec/2022 21:13:52] "GET /fazerLogin HTTP/1.1" 200 -
+2022-12-09 21:13:52,586 - INFO - 127.0.0.1 - - [09/Dec/2022 21:13:52] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 21:14:03,136 - INFO - 127.0.0.1 - - [09/Dec/2022 21:14:03] "POST /login HTTP/1.1" 200 -
+2022-12-09 21:14:03,169 - INFO - 127.0.0.1 - - [09/Dec/2022 21:14:03] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 21:14:10,019 - INFO - 127.0.0.1 - - [09/Dec/2022 21:14:10] "GET /fazerCadastro HTTP/1.1" 200 -
+2022-12-09 21:14:10,054 - INFO - 127.0.0.1 - - [09/Dec/2022 21:14:10] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 22:48:05,208 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 22:48:05,210 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-09 22:48:05,344 - INFO - 127.0.0.1 - - [09/Dec/2022 22:48:05] "GET / HTTP/1.1" 200 -
+2022-12-09 22:48:05,679 - INFO - 127.0.0.1 - - [09/Dec/2022 22:48:05] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 22:48:05,682 - INFO - 127.0.0.1 - - [09/Dec/2022 22:48:05] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 22:48:05,686 - INFO - 127.0.0.1 - - [09/Dec/2022 22:48:05] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 22:48:51,623 - INFO - 127.0.0.1 - - [09/Dec/2022 22:48:51] "GET /fazerCadastro HTTP/1.1" 200 -
+2022-12-09 22:48:51,691 - INFO - 127.0.0.1 - - [09/Dec/2022 22:48:51] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 22:49:12,971 - INFO - 127.0.0.1 - - [09/Dec/2022 22:49:12] "POST /registrar HTTP/1.1" 200 -
+2022-12-09 22:49:13,002 - INFO - 127.0.0.1 - - [09/Dec/2022 22:49:13] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 22:49:25,353 - INFO - 127.0.0.1 - - [09/Dec/2022 22:49:25] "GET /fazerLogin HTTP/1.1" 200 -
+2022-12-09 22:49:25,384 - INFO - 127.0.0.1 - - [09/Dec/2022 22:49:25] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 22:49:38,494 - INFO - 127.0.0.1 - - [09/Dec/2022 22:49:38] "POST /login HTTP/1.1" 200 -
+2022-12-09 22:49:38,535 - INFO - 127.0.0.1 - - [09/Dec/2022 22:49:38] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 22:49:45,241 - INFO - 127.0.0.1 - - [09/Dec/2022 22:49:45] "GET /paginaMudarSenha HTTP/1.1" 200 -
+2022-12-09 22:49:45,305 - INFO - 127.0.0.1 - - [09/Dec/2022 22:49:45] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 22:50:04,630 - INFO - 127.0.0.1 - - [09/Dec/2022 22:50:04] "GET /enviarEmail HTTP/1.1" 200 -
+2022-12-09 22:50:04,655 - INFO - 127.0.0.1 - - [09/Dec/2022 22:50:04] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 22:50:22,427 - INFO - 127.0.0.1 - - [09/Dec/2022 22:50:22] "GET /paginaMudarSenha HTTP/1.1" 200 -
+2022-12-09 22:50:22,511 - INFO - 127.0.0.1 - - [09/Dec/2022 22:50:22] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 22:50:31,792 - INFO - 127.0.0.1 - - [09/Dec/2022 22:50:31] "POST /mudarSenha HTTP/1.1" 200 -
+2022-12-09 22:50:31,823 - INFO - 127.0.0.1 - - [09/Dec/2022 22:50:31] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 22:50:34,694 - INFO - 127.0.0.1 - - [09/Dec/2022 22:50:34] "GET /fazerLogin HTTP/1.1" 200 -
+2022-12-09 22:50:34,720 - INFO - 127.0.0.1 - - [09/Dec/2022 22:50:34] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 22:50:41,922 - INFO - 127.0.0.1 - - [09/Dec/2022 22:50:41] "POST /login HTTP/1.1" 200 -
+2022-12-09 22:50:41,946 - INFO - 127.0.0.1 - - [09/Dec/2022 22:50:41] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 22:50:53,580 - INFO - 127.0.0.1 - - [09/Dec/2022 22:50:53] "POST /enviar HTTP/1.1" 200 -
+2022-12-09 22:50:53,611 - INFO - 127.0.0.1 - - [09/Dec/2022 22:50:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-09 22:50:53,621 - INFO - 127.0.0.1 - - [09/Dec/2022 22:50:53] "[36mGET /static/owl.carousel.min.css HTTP/1.1[0m" 304 -
+2022-12-09 22:50:53,626 - INFO - 127.0.0.1 - - [09/Dec/2022 22:50:53] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-12-09 22:50:53,632 - INFO - 127.0.0.1 - - [09/Dec/2022 22:50:53] "[33mGET /js/jquery-3.3.1.min.js HTTP/1.1[0m" 404 -
+2022-12-09 22:50:53,651 - INFO - 127.0.0.1 - - [09/Dec/2022 22:50:53] "[33mGET /js/popper.min.js HTTP/1.1[0m" 404 -
+2022-12-09 22:50:53,655 - INFO - 127.0.0.1 - - [09/Dec/2022 22:50:53] "[33mGET /js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2022-12-09 22:50:53,661 - INFO - 127.0.0.1 - - [09/Dec/2022 22:50:53] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2022-12-09 22:51:28,492 - INFO - 127.0.0.1 - - [09/Dec/2022 22:51:28] "GET /perfil HTTP/1.1" 200 -
+2022-12-09 22:51:28,521 - INFO - 127.0.0.1 - - [09/Dec/2022 22:51:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-09 22:51:28,528 - INFO - 127.0.0.1 - - [09/Dec/2022 22:51:28] "[36mGET /static/perfil.css HTTP/1.1[0m" 304 -
+2022-12-09 22:51:28,630 - INFO - 127.0.0.1 - - [09/Dec/2022 22:51:28] "[33mGET /js/jquery-3.3.1.min.js HTTP/1.1[0m" 404 -
+2022-12-09 22:51:28,638 - INFO - 127.0.0.1 - - [09/Dec/2022 22:51:28] "[33mGET /js/popper.min.js HTTP/1.1[0m" 404 -
+2022-12-09 22:51:28,653 - INFO - 127.0.0.1 - - [09/Dec/2022 22:51:28] "[33mGET /js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2022-12-09 22:51:28,670 - INFO - 127.0.0.1 - - [09/Dec/2022 22:51:28] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2022-12-09 22:51:37,542 - INFO - 127.0.0.1 - - [09/Dec/2022 22:51:37] "GET /home HTTP/1.1" 200 -
+2022-12-09 22:51:37,574 - INFO - 127.0.0.1 - - [09/Dec/2022 22:51:37] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 22:51:37,607 - INFO - 127.0.0.1 - - [09/Dec/2022 22:51:37] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 22:51:37,612 - INFO - 127.0.0.1 - - [09/Dec/2022 22:51:37] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:15:36,878 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 23:15:36,879 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-09 23:16:07,562 - INFO - 127.0.0.1 - - [09/Dec/2022 23:16:07] "GET / HTTP/1.1" 200 -
+2022-12-09 23:16:07,921 - INFO - 127.0.0.1 - - [09/Dec/2022 23:16:07] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:16:07,927 - INFO - 127.0.0.1 - - [09/Dec/2022 23:16:07] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:16:07,936 - INFO - 127.0.0.1 - - [09/Dec/2022 23:16:07] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:16:25,199 - INFO - 127.0.0.1 - - [09/Dec/2022 23:16:25] "GET / HTTP/1.1" 200 -
+2022-12-09 23:16:25,219 - INFO - 127.0.0.1 - - [09/Dec/2022 23:16:25] "GET /static/home.css HTTP/1.1" 200 -
+2022-12-09 23:16:25,282 - INFO - 127.0.0.1 - - [09/Dec/2022 23:16:25] "GET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1" 200 -
+2022-12-09 23:16:25,283 - INFO - 127.0.0.1 - - [09/Dec/2022 23:16:25] "GET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1" 200 -
+2022-12-09 23:16:27,296 - INFO - 127.0.0.1 - - [09/Dec/2022 23:16:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-12-09 23:16:30,792 - INFO - 127.0.0.1 - - [09/Dec/2022 23:16:30] "GET /fazerLogin HTTP/1.1" 200 -
+2022-12-09 23:16:30,853 - INFO - 127.0.0.1 - - [09/Dec/2022 23:16:30] "GET /static/index.css HTTP/1.1" 200 -
+2022-12-09 23:17:12,782 - INFO - 127.0.0.1 - - [09/Dec/2022 23:17:12] "[35m[1mGET /enviarEmail HTTP/1.1[0m" 500 -
+2022-12-09 23:17:12,810 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1842, in finalize_request
+    response = self.make_response(rv)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2134, in make_response
+    raise TypeError(
+TypeError: The view function for 'enviarEmail' did not return a valid response. The function either returned None or ended without a return statement.
+2022-12-09 23:17:50,460 - INFO - 127.0.0.1 - - [09/Dec/2022 23:17:50] "POST /login HTTP/1.1" 200 -
+2022-12-09 23:17:50,472 - INFO - 127.0.0.1 - - [09/Dec/2022 23:17:50] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 23:17:57,418 - INFO - 127.0.0.1 - - [09/Dec/2022 23:17:57] "GET /perfil HTTP/1.1" 200 -
+2022-12-09 23:17:57,432 - INFO - 127.0.0.1 - - [09/Dec/2022 23:17:57] "GET /static/style.css HTTP/1.1" 200 -
+2022-12-09 23:17:57,437 - INFO - 127.0.0.1 - - [09/Dec/2022 23:17:57] "GET /static/perfil.css HTTP/1.1" 200 -
+2022-12-09 23:17:57,452 - INFO - 127.0.0.1 - - [09/Dec/2022 23:17:57] "[33mGET /js/jquery-3.3.1.min.js HTTP/1.1[0m" 404 -
+2022-12-09 23:17:57,461 - INFO - 127.0.0.1 - - [09/Dec/2022 23:17:57] "[33mGET /js/popper.min.js HTTP/1.1[0m" 404 -
+2022-12-09 23:17:57,472 - INFO - 127.0.0.1 - - [09/Dec/2022 23:17:57] "[33mGET /js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2022-12-09 23:17:57,482 - INFO - 127.0.0.1 - - [09/Dec/2022 23:17:57] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2022-12-09 23:18:14,348 - INFO - 127.0.0.1 - - [09/Dec/2022 23:18:14] "POST /login HTTP/1.1" 200 -
+2022-12-09 23:18:14,360 - INFO - 127.0.0.1 - - [09/Dec/2022 23:18:14] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 23:18:21,248 - INFO - 127.0.0.1 - - [09/Dec/2022 23:18:21] "POST /enviar HTTP/1.1" 200 -
+2022-12-09 23:18:21,266 - INFO - 127.0.0.1 - - [09/Dec/2022 23:18:21] "GET /static/owl.carousel.min.css HTTP/1.1" 200 -
+2022-12-09 23:18:21,269 - INFO - 127.0.0.1 - - [09/Dec/2022 23:18:21] "GET /static/bootstrap.min.css HTTP/1.1" 200 -
+2022-12-09 23:18:21,278 - INFO - 127.0.0.1 - - [09/Dec/2022 23:18:21] "[33mGET /js/jquery-3.3.1.min.js HTTP/1.1[0m" 404 -
+2022-12-09 23:18:21,281 - INFO - 127.0.0.1 - - [09/Dec/2022 23:18:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-09 23:18:21,290 - INFO - 127.0.0.1 - - [09/Dec/2022 23:18:21] "[33mGET /js/popper.min.js HTTP/1.1[0m" 404 -
+2022-12-09 23:18:21,296 - INFO - 127.0.0.1 - - [09/Dec/2022 23:18:21] "[33mGET /js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2022-12-09 23:18:21,304 - INFO - 127.0.0.1 - - [09/Dec/2022 23:18:21] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2022-12-09 23:18:31,392 - INFO - 127.0.0.1 - - [09/Dec/2022 23:18:31] "GET /perfil HTTP/1.1" 200 -
+2022-12-09 23:18:31,408 - INFO - 127.0.0.1 - - [09/Dec/2022 23:18:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-09 23:18:31,415 - INFO - 127.0.0.1 - - [09/Dec/2022 23:18:31] "[36mGET /static/perfil.css HTTP/1.1[0m" 304 -
+2022-12-09 23:18:31,423 - INFO - 127.0.0.1 - - [09/Dec/2022 23:18:31] "[33mGET /js/jquery-3.3.1.min.js HTTP/1.1[0m" 404 -
+2022-12-09 23:18:31,432 - INFO - 127.0.0.1 - - [09/Dec/2022 23:18:31] "[33mGET /js/popper.min.js HTTP/1.1[0m" 404 -
+2022-12-09 23:18:31,439 - INFO - 127.0.0.1 - - [09/Dec/2022 23:18:31] "[33mGET /js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2022-12-09 23:18:31,443 - INFO - 127.0.0.1 - - [09/Dec/2022 23:18:31] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2022-12-09 23:18:51,754 - INFO - 127.0.0.1 - - [09/Dec/2022 23:18:51] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:18:51,770 - INFO - 127.0.0.1 - - [09/Dec/2022 23:18:51] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:18:51,779 - INFO - 127.0.0.1 - - [09/Dec/2022 23:18:51] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:18:51,780 - INFO - 127.0.0.1 - - [09/Dec/2022 23:18:51] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:19:06,265 - INFO - 127.0.0.1 - - [09/Dec/2022 23:19:06] "GET /fazerLogin HTTP/1.1" 200 -
+2022-12-09 23:19:06,348 - INFO - 127.0.0.1 - - [09/Dec/2022 23:19:06] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 23:19:44,050 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 23:19:44,050 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-09 23:20:11,922 - INFO - 127.0.0.1 - - [09/Dec/2022 23:20:11] "POST /login HTTP/1.1" 200 -
+2022-12-09 23:20:12,100 - INFO - 127.0.0.1 - - [09/Dec/2022 23:20:12] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 23:20:49,898 - INFO - 127.0.0.1 - - [09/Dec/2022 23:20:49] "GET /enviarEmail HTTP/1.1" 200 -
+2022-12-09 23:20:49,920 - INFO - 127.0.0.1 - - [09/Dec/2022 23:20:49] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 23:21:16,389 - INFO - 127.0.0.1 - - [09/Dec/2022 23:21:16] "GET /paginaMudarSenha HTTP/1.1" 200 -
+2022-12-09 23:21:16,580 - INFO - 127.0.0.1 - - [09/Dec/2022 23:21:16] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 23:21:54,662 - INFO - 127.0.0.1 - - [09/Dec/2022 23:21:54] "GET / HTTP/1.1" 200 -
+2022-12-09 23:21:54,742 - INFO - 127.0.0.1 - - [09/Dec/2022 23:21:54] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:21:54,814 - INFO - 127.0.0.1 - - [09/Dec/2022 23:21:54] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:21:54,817 - INFO - 127.0.0.1 - - [09/Dec/2022 23:21:54] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:21:57,300 - INFO - 127.0.0.1 - - [09/Dec/2022 23:21:57] "POST /mudarSenha HTTP/1.1" 200 -
+2022-12-09 23:21:57,327 - INFO - 127.0.0.1 - - [09/Dec/2022 23:21:57] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 23:21:59,551 - INFO - 127.0.0.1 - - [09/Dec/2022 23:21:59] "GET /fazerCadastro HTTP/1.1" 200 -
+2022-12-09 23:21:59,742 - INFO - 127.0.0.1 - - [09/Dec/2022 23:21:59] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 23:22:27,583 - INFO - 127.0.0.1 - - [09/Dec/2022 23:22:27] "GET /fazerLogin HTTP/1.1" 200 -
+2022-12-09 23:22:27,597 - INFO - 127.0.0.1 - - [09/Dec/2022 23:22:27] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 23:22:28,930 - INFO - 127.0.0.1 - - [09/Dec/2022 23:22:28] "POST /registrar HTTP/1.1" 200 -
+2022-12-09 23:22:28,962 - INFO - 127.0.0.1 - - [09/Dec/2022 23:22:28] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:29,971 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:29] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:29,991 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:29] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:29,998 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:29] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:30,000 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:30] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:30,779 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:30] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:30,797 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:30] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:30,798 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:30] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:30,804 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:30] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:31,827 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:31] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:31,843 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:31] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:31,851 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:31] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:31,854 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:31] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:32,453 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:32] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:32,471 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:32] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:32,473 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:32] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:32,477 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:32] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:33,125 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:33] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:33,140 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:33] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:33,150 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:33] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:33,151 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:33] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:33,661 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:33] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:33,676 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:33] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:33,681 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:33] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:33,688 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:33] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:34,222 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:34] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:34,240 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:34] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:34,247 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:34] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:34,252 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:34] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:35,263 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:35] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:35,276 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:35] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:35,285 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:35] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:35,286 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:35] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:35,800 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:35] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:35,825 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:35] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:35,825 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:35] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:35,829 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:35] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:36,210 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:36] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:36,228 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:36] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:36,236 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:36] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:36,239 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:36] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:36,574 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:36] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:36,606 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:36] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:36,608 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:36] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:36,614 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:36] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:36,880 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:36] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:36,897 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:36] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:36,904 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:36] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:36,909 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:36] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:37,181 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:37] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:37,196 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:37] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:37,203 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:37] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:37,207 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:37] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:37,423 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:37] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:37,433 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:37] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:37,444 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:37] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:37,446 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:37] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:37,669 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:37] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:37,686 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:37] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:37,694 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:37] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:37,697 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:37] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:37,922 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:37] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:37,941 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:37] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:37,949 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:37] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:37,950 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:37] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:38,182 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:38] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:38,196 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:38] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:38,207 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:38] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:38,211 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:38] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:38,410 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:38] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:38,428 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:38] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:38,433 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:38] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:38,439 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:38] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:38,612 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:38] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:38,626 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:38] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:38,627 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:38] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:38,630 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:38] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:38,800 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:38] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:38,813 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:38] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:38,819 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:38] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:38,824 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:38] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:38,985 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:38] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:39,002 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:39] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:39,009 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:39] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:39,010 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:39] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:39,167 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:39] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:39,181 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:39] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:39,188 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:39] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:39,190 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:39] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:39,340 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:39] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:39,352 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:39] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:39,359 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:39] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:39,364 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:39] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:39,530 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:39] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:39,552 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:39] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:39,562 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:39] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:39,563 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:39] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:39,698 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:39] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:39,715 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:39] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:39,722 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:39] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:39,726 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:39] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:39,879 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:39] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:39,893 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:39] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:39,909 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:39] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:39,916 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:39] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:40,262 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:40] "GET /home HTTP/1.1" 200 -
+2022-12-09 23:23:40,295 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:40] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-09 23:23:40,298 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:40] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-09 23:23:40,305 - INFO - 127.0.0.1 - - [09/Dec/2022 23:23:40] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-12 21:54:59,596 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-12 21:54:59,598 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-12 21:55:08,392 - INFO - 127.0.0.1 - - [12/Dec/2022 21:55:08] "GET / HTTP/1.1" 200 -
+2022-12-12 21:55:08,729 - INFO - 127.0.0.1 - - [12/Dec/2022 21:55:08] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-12 21:55:08,745 - INFO - 127.0.0.1 - - [12/Dec/2022 21:55:08] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-12 21:55:08,752 - INFO - 127.0.0.1 - - [12/Dec/2022 21:55:08] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-12 21:55:10,146 - INFO - 127.0.0.1 - - [12/Dec/2022 21:55:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-12-12 21:55:12,050 - INFO - 127.0.0.1 - - [12/Dec/2022 21:55:12] "GET /fazerLogin HTTP/1.1" 200 -
+2022-12-12 21:55:12,085 - INFO - 127.0.0.1 - - [12/Dec/2022 21:55:12] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-12 21:55:23,442 - INFO - 127.0.0.1 - - [12/Dec/2022 21:55:23] "POST /login HTTP/1.1" 200 -
+2022-12-12 21:55:23,467 - INFO - 127.0.0.1 - - [12/Dec/2022 21:55:23] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-12 21:56:34,731 - INFO - 127.0.0.1 - - [12/Dec/2022 21:56:34] "POST /enviar HTTP/1.1" 200 -
+2022-12-12 21:56:34,776 - INFO - 127.0.0.1 - - [12/Dec/2022 21:56:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-12 21:56:34,788 - INFO - 127.0.0.1 - - [12/Dec/2022 21:56:34] "[33mGET /js/popper.min.js HTTP/1.1[0m" 404 -
+2022-12-12 21:56:34,791 - INFO - 127.0.0.1 - - [12/Dec/2022 21:56:34] "[36mGET /static/owl.carousel.min.css HTTP/1.1[0m" 304 -
+2022-12-12 21:56:34,794 - INFO - 127.0.0.1 - - [12/Dec/2022 21:56:34] "[33mGET /js/jquery-3.3.1.min.js HTTP/1.1[0m" 404 -
+2022-12-12 21:56:34,798 - INFO - 127.0.0.1 - - [12/Dec/2022 21:56:34] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-12-12 21:56:34,808 - INFO - 127.0.0.1 - - [12/Dec/2022 21:56:34] "[33mGET /js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2022-12-12 21:56:34,813 - INFO - 127.0.0.1 - - [12/Dec/2022 21:56:34] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2022-12-12 21:58:04,140 - INFO - 127.0.0.1 - - [12/Dec/2022 21:58:04] "GET /perfil HTTP/1.1" 200 -
+2022-12-12 21:58:04,173 - INFO - 127.0.0.1 - - [12/Dec/2022 21:58:04] "GET /static/perfil.css HTTP/1.1" 200 -
+2022-12-12 21:58:04,175 - INFO - 127.0.0.1 - - [12/Dec/2022 21:58:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-12 21:58:04,310 - INFO - 127.0.0.1 - - [12/Dec/2022 21:58:04] "[33mGET /js/jquery-3.3.1.min.js HTTP/1.1[0m" 404 -
+2022-12-12 21:58:04,321 - INFO - 127.0.0.1 - - [12/Dec/2022 21:58:04] "[33mGET /js/popper.min.js HTTP/1.1[0m" 404 -
+2022-12-12 21:58:04,327 - INFO - 127.0.0.1 - - [12/Dec/2022 21:58:04] "[33mGET /js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2022-12-12 21:58:04,340 - INFO - 127.0.0.1 - - [12/Dec/2022 21:58:04] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2022-12-12 21:58:04,443 - INFO - 127.0.0.1 - - [12/Dec/2022 21:58:04] "[33mGET /js/jquery-3.3.1.min.js HTTP/1.1[0m" 404 -
+2022-12-12 21:58:04,449 - INFO - 127.0.0.1 - - [12/Dec/2022 21:58:04] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2022-12-12 21:58:49,756 - INFO - 127.0.0.1 - - [12/Dec/2022 21:58:49] "GET /home HTTP/1.1" 200 -
+2022-12-12 21:58:49,790 - INFO - 127.0.0.1 - - [12/Dec/2022 21:58:49] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-12 21:58:49,845 - INFO - 127.0.0.1 - - [12/Dec/2022 21:58:49] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-12 21:58:49,852 - INFO - 127.0.0.1 - - [12/Dec/2022 21:58:49] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-12 21:58:51,477 - INFO - 127.0.0.1 - - [12/Dec/2022 21:58:51] "GET /fazerLogin HTTP/1.1" 200 -
+2022-12-12 21:58:51,499 - INFO - 127.0.0.1 - - [12/Dec/2022 21:58:51] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-12 21:59:00,564 - INFO - 127.0.0.1 - - [12/Dec/2022 21:59:00] "POST /login HTTP/1.1" 200 -
+2022-12-12 21:59:00,597 - INFO - 127.0.0.1 - - [12/Dec/2022 21:59:00] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-12 21:59:08,745 - INFO - 127.0.0.1 - - [12/Dec/2022 21:59:08] "POST /enviar HTTP/1.1" 200 -
+2022-12-12 21:59:08,776 - INFO - 127.0.0.1 - - [12/Dec/2022 21:59:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-12 21:59:08,790 - INFO - 127.0.0.1 - - [12/Dec/2022 21:59:08] "[36mGET /static/owl.carousel.min.css HTTP/1.1[0m" 304 -
+2022-12-12 21:59:08,795 - INFO - 127.0.0.1 - - [12/Dec/2022 21:59:08] "[36mGET /static/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-12-12 21:59:08,800 - INFO - 127.0.0.1 - - [12/Dec/2022 21:59:08] "[33mGET /js/jquery-3.3.1.min.js HTTP/1.1[0m" 404 -
+2022-12-12 21:59:08,805 - INFO - 127.0.0.1 - - [12/Dec/2022 21:59:08] "[33mGET /js/popper.min.js HTTP/1.1[0m" 404 -
+2022-12-12 21:59:08,811 - INFO - 127.0.0.1 - - [12/Dec/2022 21:59:08] "[33mGET /js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2022-12-12 21:59:08,817 - INFO - 127.0.0.1 - - [12/Dec/2022 21:59:08] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2022-12-12 21:59:08,823 - INFO - 127.0.0.1 - - [12/Dec/2022 21:59:08] "[33mGET /js/jquery-3.3.1.min.js HTTP/1.1[0m" 404 -
+2022-12-12 21:59:08,826 - INFO - 127.0.0.1 - - [12/Dec/2022 21:59:08] "[33mGET /js/popper.min.js HTTP/1.1[0m" 404 -
+2022-12-12 21:59:08,834 - INFO - 127.0.0.1 - - [12/Dec/2022 21:59:08] "[33mGET /js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2022-12-12 21:59:08,839 - INFO - 127.0.0.1 - - [12/Dec/2022 21:59:08] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2022-12-12 22:34:18,736 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-12 22:34:18,740 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-12 22:34:31,029 - INFO - 127.0.0.1 - - [12/Dec/2022 22:34:31] "GET / HTTP/1.1" 200 -
+2022-12-12 22:34:31,368 - INFO - 127.0.0.1 - - [12/Dec/2022 22:34:31] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-12 22:34:31,371 - INFO - 127.0.0.1 - - [12/Dec/2022 22:34:31] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-12 22:34:31,376 - INFO - 127.0.0.1 - - [12/Dec/2022 22:34:31] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-12 22:34:49,954 - INFO - 127.0.0.1 - - [12/Dec/2022 22:34:49] "GET /fazerLogin HTTP/1.1" 200 -
+2022-12-12 22:34:49,993 - INFO - 127.0.0.1 - - [12/Dec/2022 22:34:49] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-15 21:59:31,035 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-15 21:59:31,036 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-15 21:59:33,839 - INFO - 127.0.0.1 - - [15/Dec/2022 21:59:33] "GET / HTTP/1.1" 200 -
+2022-12-15 21:59:34,070 - INFO - 127.0.0.1 - - [15/Dec/2022 21:59:34] "[36mGET /static/images/Captura%20de%20tela_20221113_201048.png HTTP/1.1[0m" 304 -
+2022-12-15 21:59:34,072 - INFO - 127.0.0.1 - - [15/Dec/2022 21:59:34] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2022-12-15 21:59:34,074 - INFO - 127.0.0.1 - - [15/Dec/2022 21:59:34] "[36mGET /static/images/Captura%20de%20tela_20221113_201211.png HTTP/1.1[0m" 304 -
+2022-12-15 21:59:35,027 - INFO - 127.0.0.1 - - [15/Dec/2022 21:59:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-12-15 21:59:36,606 - INFO - 127.0.0.1 - - [15/Dec/2022 21:59:36] "GET /fazerLogin HTTP/1.1" 200 -
+2022-12-15 21:59:36,654 - INFO - 127.0.0.1 - - [15/Dec/2022 21:59:36] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-15 21:59:47,019 - INFO - 127.0.0.1 - - [15/Dec/2022 21:59:47] "POST /login HTTP/1.1" 200 -
+2022-12-15 21:59:47,049 - INFO - 127.0.0.1 - - [15/Dec/2022 21:59:47] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-15 22:00:29,494 - INFO - 127.0.0.1 - - [15/Dec/2022 22:00:29] "[35m[1mPOST /enviar HTTP/1.1[0m" 500 -
+2022-12-15 22:00:29,790 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 335, in run_wsgi
+    execute(self.server.app)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\werkzeug\serving.py", line 322, in execute
+    application_iter = app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\soste\Projetos\varreduraDetran\app.py", line 111, in enviar
+    pegarDadosVeiculo = consultarVeiculo.processar_dado_html(placa, renavam)
+  File "C:\Users\soste\Projetos\varreduraDetran\funcoes\consultaVeiculo.py", line 177, in processar_dado_html
+    html = Robo_consulta(placa, renavam)
+  File "C:\Users\soste\Projetos\varreduraDetran\roboIndexDetranRn.py", line 23, in Robo_consulta
+    resposta_captcha = captcha(captchaKey, link, KEY)
+  File "C:\Users\soste\Projetos\varreduraDetran\funcoes\utils.py", line 28, in captcha
+    result = solver.recaptcha(sitekey=captchaKey, url=url)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\twocaptcha\solver.py", line 130, in recaptcha
+    result = self.solve(timeout=self.recaptcha_timeout, **params)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\twocaptcha\solver.py", line 403, in solve
+    id_ = self.send(**kwargs)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\twocaptcha\solver.py", line 457, in send
+    response = self.api_client.in_(files=files, **params)
+  File "c:\Users\soste\Projetos\varreduraDetran\venv\lib\site-packages\twocaptcha\api.py", line 71, in in_
+    raise NetworkException(f'bad response: {resp.status_code}')
+twocaptcha.api.NetworkException: bad response: 522
+2022-12-15 22:00:52,068 - INFO - 127.0.0.1 - - [15/Dec/2022 22:00:52] "POST /login HTTP/1.1" 200 -
+2022-12-15 22:00:52,094 - INFO - 127.0.0.1 - - [15/Dec/2022 22:00:52] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-15 22:01:05,542 - INFO - 127.0.0.1 - - [15/Dec/2022 22:01:05] "POST /login HTTP/1.1" 200 -
+2022-12-15 22:01:05,565 - INFO - 127.0.0.1 - - [15/Dec/2022 22:01:05] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2022-12-15 22:01:43,893 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-15 22:01:43,894 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-15 22:02:11,822 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-15 22:02:11,823 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-15 22:02:47,425 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-15 22:02:47,426 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-15 22:04:12,488 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-15 22:04:12,488 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-15 22:05:17,202 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-15 22:05:17,202 - INFO - [33mPress CTRL+C to quit[0m
+2022-12-15 22:05:17,207 - INFO -  * Restarting with stat
+2022-12-15 22:05:19,870 - WARNING -  * Debugger is active!
+2022-12-15 22:05:19,883 - INFO -  * Debugger PIN: 937-902-946
